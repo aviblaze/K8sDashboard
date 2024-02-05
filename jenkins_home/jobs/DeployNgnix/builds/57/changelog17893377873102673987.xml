@@ -1,0 +1,16 @@
+commit 464fa8909fb0f85e980fdcead6b6facb6bb92818
+tree 45235849d10a096c2fe947b0e5d225f6a2429f11
+parent a53a2353f80ae03d7d6d49c8d479b225c41f2886
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-19 08:28:13 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-19 08:28:13 +0530
+
+    Added missing nat gateways and ouput varibales.
+
+
+:100644 100644 07438ca3ede258d84610f5ee8ee04849a6ae7b7e b2762e0440630f4f35b4eb974cec77c93e2f6e66 M	.gitignore
+:100644 100644 7a3326b01f1ad4b171b69cee14ccfcc959f3e44e aeec19c21ac4eb255238d004a965fca31a4ccdc9 M	MultiRegion/Providers.tf
+:100644 100644 a3a7cb38e93545196975d268f63622681872ff97 1d1e259b7ff81e30820eb240021f2a15d8069860 M	MultiRegion/resources.tf
+:100644 100644 bfdc95e0f14dfd84cce124b8a50c319332734f6d d19a337e4b7c6825f609745104c7375c0660eca5 M	MultiZone/resources.tf
+:100644 100644 4a1a0d2a996e68fd2842103102b42736e0f52a72 b444d66862cc1fa1bd3e1a5d9736459eb4d3ff69 M	MultiZone/variables.tf
+:100644 100644 15118ca7bb2d7602b1385ffcff10e0d445e512f6 e355a3f12828acdc67b310b8009d637df9c87a70 M	SingleZone/resources.tf
+:100644 100644 a39a292a1ccd25951958b49c98b570f2a393acd9 cbbf8dc6f57a3f7bc6d95cdc9fb94e5640e513b2 M	SingleZone/variables.tf

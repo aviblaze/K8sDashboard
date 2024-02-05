@@ -1,0 +1,10 @@
+commit 0ef0f082701fd4c0f930d8106eb2fad5eccc1256
+tree 1653d1e07be1d01f7406ed266dee2bd3ddeb8351
+parent ebb82c7783814e3b06550f321f7d191114ff3c54
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 17:49:51 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 18:02:51 +0530
+
+    corrected logic for adding global accelerator listeners in case of region is 1.
+
+
+:100644 100644 11753c7a7d62498d5803178c1a061e772bbff698 3a79b7e4ccab4cd4975d2a9406df395467ee3b0d M	MultiRegion/variables.tf

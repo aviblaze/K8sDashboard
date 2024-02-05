@@ -1,0 +1,48 @@
+/* Dialog container styles */
+.custom-dialog-container .mat-dialog-container {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: #ffffff; /* White background for a clean look */
+    color: #333;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Content styles */
+  .custom-dialog-container .mat-dialog-content {
+    text-align: center; /* Center the text if desired */
+    margin-bottom: 24px; /* Space above the action buttons */
+    padding: 0 24px; /* Padding on the sides for narrower screens */
+  }
+  
+  /* Action button styles */
+  .custom-dialog-container .mat-dialog-actions {
+    text-align: center; /* This will align the button to the center */
+    padding: 0;
+    margin-top: 20px; /* Extra space above the button */
+  }
+  
+  .custom-dialog-container .mat-dialog-actions button {
+    background-color: #4e8cff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    outline: none; /* Remove outline to avoid blue border on click */
+    -webkit-appearance: none; /* For iOS to remove default button styling */
+  }
+  
+  .custom-dialog-container .mat-dialog-actions button:hover {
+    background-color: #2672ff;
+  }
+  
+  /* Button focus state to ensure accessibility */
+  .custom-dialog-container .mat-dialog-actions button:focus {
+    outline: 2px solid #2672ff;
+    outline-offset: 2px;
+  }
+  

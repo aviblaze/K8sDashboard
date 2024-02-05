@@ -1,0 +1,41 @@
+.dynamic-container {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%; 
+}
+
+.split-horizontal {
+  flex-direction: column; /* Stack children vertically */
+}
+
+.split-vertical {
+  flex-direction: row; /* Side-by-side children horizontally */
+}
+
+.vertical-container{
+ display: flex;
+ flex-direction: column;
+}
+
+.horizontal-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-container-inverse{
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .horizontal-container-inverse{
+   display: flex;
+   flex-direction: column;
+ }
+
+/* Ensure that nested splitscreens fill their allocated container space */
+app-splitscreen {
+  width: 100%; /* fill the width */
+  height: 100%; /* fill the height */
+  flex-grow: 1; /* allow to grow within the container if needed */
+}

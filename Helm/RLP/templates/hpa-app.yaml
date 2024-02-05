@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: angular-resume
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: angular-resume 
+  template:
+    metadata:
+      labels:
+        app: angular-resume
+    spec:
+      containers:
+      - name: nginx
+        image: mallaavinash/angular-resume:latest 
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+          limits:
+            cpu: 200m
+      - name: pytohn-backend
+        image: mallaavinash/python-backend:latest 
+        env:
+        - name: MASTER_IP
+          value: {{- .Values.masterIp }}
+        - name: JENKINS_USERNAME
+          value: {{- .Values.jenkinsUserName }}
+        - name: JENKINS_PASSWORD
+          value: {{- .Values.jenkinsPassword }}
+        - name: JENKINS_PORT
+          value: "8080"
+        - name: ELASTICSEARCH_PORT
+          value: "9000"
+        - name: KUBERNETES_PORT
+          value: "6443"
+        ports:
+        - containerPort: 5000
+        resources:
+          requests:
+            cpu: 100m
+          limits:
+            cpu: 200m
+
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: angular-resume-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: angular-resume
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 50

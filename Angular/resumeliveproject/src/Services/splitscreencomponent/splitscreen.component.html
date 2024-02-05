@@ -1,0 +1,19 @@
+<!-- SplitscreenComponent template -->
+<div class="dynamic-container" [ngClass]="{'split-horizontal': splitContent.split === 'horizontal', 'split-vertical': splitContent.split === 'vertical'}">
+    <ng-container *ngFor="let splitKey of objectKeys(splitContent.data); let i = index">
+        <div [ngClass]="getContainerClass(splitContent.overrideflexdirection[i] ,splitContent.split)" [ngStyle]="getSplitStyle(splitContent.overrideflexdirection[i] ,splitContent.split, splitContent.splitratio[i])">
+            <ng-container *ngFor="let item of splitContent.data[parseIntKey(splitKey)]; let j = index">
+                <ng-container *ngIf="isScreendetails(item)">
+                    <!-- Recursive component for nested screendetails -->
+                    <app-splitscreen (splitscreenEvent)="handleNestedEvent($event)" [splitContent]="item"></app-splitscreen>
+                </ng-container>
+                <ng-container *ngIf="isComponentDetails(item)">
+                    <!-- Dynamic components -->
+                    <div [ngStyle]="getComponentSplitStyle(splitContent.overrideflexdirection[i],splitContent.split,splitContent.data[parseIntKey(splitKey)])">
+                        <ng-template #dynamicComponentRef></ng-template>
+                    </div>
+                </ng-container>
+            </ng-container>
+        </div>
+    </ng-container>
+</div>

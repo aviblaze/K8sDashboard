@@ -1,0 +1,75 @@
+.home-container {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 1200px; /* Set a max-width for large screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em; /* Larger font-size for headings */
+    margin-bottom: 0.5em; /* Space below headings */
+}
+
+.icon, .tech-logo {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tech-list .tech-logo {
+    width: 40px; /* Slightly smaller for technology logos */
+}
+
+.profile-photo {
+    width: 150px; /* Larger profile photo */
+    border: 3px solid #007bff; /* Add a border color that matches the links */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+}
+
+a:hover {
+    color: #0056b3; /* Darker shade on hover for better contrast */
+}
+
+ul li {
+    margin-bottom: 15px; /* Increase spacing between list items */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .icon, .tech-logo {
+        width: 25px;
+    }
+    
+    .profile-photo {
+        width: 120px;
+    }
+}
+
+/* Accessibility improvements */
+a:focus, a:hover {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.5); /* Custom focus indicator */
+}
+
+/* Add a subtle shadow to icons for depth */
+.icon, .tech-logo {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Make the navigation bar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 10;
+}

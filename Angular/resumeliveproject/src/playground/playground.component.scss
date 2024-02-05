@@ -1,0 +1,33 @@
+.playground-container {
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+    /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    /* Prevent scrolling */
+    background-color: #f0f7ff;
+}
+
+/* Fullscreen spinner */
+.loading-spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+    /* Above all other content */
+}
+
+app-splitscreen {
+    flex-grow: 1;
+    /* Component will fill the remaining height */
+    overflow: hidden;
+    /* Prevents internal scroll */
+}

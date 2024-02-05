@@ -1,0 +1,12 @@
+commit ebb82c7783814e3b06550f321f7d191114ff3c54
+tree dc44b8003210dcfb05e1a3b8d9559dfa7bcbb2df
+parent c59235b42523fb224724a16b4ed94e146a101511
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 15:54:53 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 15:54:53 +0530
+
+    Corrected logic if 2nd and 3rd regions are not provided then the respective providers are initialized with the 1st region but different alias.
+
+
+:100644 100644 34a308bf61dcd79b75659e69e460e686f05abe46 07438ca3ede258d84610f5ee8ee04849a6ae7b7e M	.gitignore
+:100644 100644 d806e64aa05bb64dadf496fcab33749488e4b2b8 7a3326b01f1ad4b171b69cee14ccfcc959f3e44e M	MultiRegion/Providers.tf
+:100644 100644 b36b6cefee21479ed7df7c2d797eeb0f5c23be73 11753c7a7d62498d5803178c1a061e772bbff698 M	MultiRegion/variables.tf

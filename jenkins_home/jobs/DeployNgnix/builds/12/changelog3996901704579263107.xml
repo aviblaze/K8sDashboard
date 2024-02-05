@@ -1,0 +1,10 @@
+commit 6c4a305b98c1aff3ea5f03c34cce230877630f17
+tree 318cf2a438c489f44f6871b959f776d9fd1325be
+parent bec89c83f575db1742f03117c9861801e265ac47
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:11:31 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:11:31 +0530
+
+    Added backend config access and secret to init inline
+
+
+:100644 100644 c941e069f1b337ccd021609f49ed17441eb2736e f46a3a6ede561c04e4d4fe465fd8d44b21fb6b77 M	Jenkinsfile

@@ -1,0 +1,50 @@
+/* In child component CSS */
+:host {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.mat-icon {
+  font-size: 24px; /* Adjust size if it's too large */
+  flex-shrink: 0; /* Prevents the icon from shrinking */
+}
+
+.mat-icon.green-icon {
+  color: #4CAF50;
+}
+
+.mat-icon.red-icon {
+  color: #F44336;
+}
+
+.textdata {
+  width: 95%;
+  height: auto; /* Let the height be determined by the content */
+  max-height: 80%; /* But don't let it grow beyond 80% of the container's height */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 20px; /* More padding for a less cramped look */
+  border-radius: 12px; /* Softer corners */
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtler shadow */
+  font-size: 12px; /* Slightly larger font for readability */
+  font-family: 'Consolas', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace;
+  line-height: 1.6; /* Better spacing between lines */
+  color: #555;
+  white-space: pre-wrap; /* This will allow the \n characters to create new lines */
+  margin-left: 10px;
+}
+
+.rawlogs {
+  color: #2e3d49; /* Dark gray for readability and aesthetics */
+  /* Rest of your .textdata p styles */
+}
+
+.title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}

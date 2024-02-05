@@ -1,0 +1,67 @@
+.horizontal-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.item-container {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.item {
+  flex: 0 0 100%; /* Each item takes full width */
+  opacity: 0;
+  transition: opacity 0.5s ease, display 0s 0.5s; 
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+}
+
+.item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; // or a specific width like 300px
+  max-height: 350px; // or a specific height
+  object-fit: contain;
+}
+
+.item p {
+  text-align: left;
+}
+
+.item.active {
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.5s ease, display 0s;
+}
+
+.arrow {
+  z-index: 2;
+}
+
+.indicators {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicators button {
+  margin: 0 2px;
+}
+
+.indicators button.active {
+  background-color: var(--mat-primary-color); /* Or any color you prefer */
+}
+
+@media (max-width: 600px) {
+  .item img {
+    height: 150px; // Smaller height for smaller screens
+  }
+}

@@ -1,0 +1,11 @@
+commit bec89c83f575db1742f03117c9861801e265ac47
+tree a1defb2413d8cb7ffe2f3fda8aa9c99163d2dc21
+parent 4de2c388fad34db220f03da5f3242df74cc7af13
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:08:56 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:08:56 +0530
+
+    Added backend config inline and removed it from terraform file ocnfig.
+
+
+:100644 100644 0e16fcb5773ff5bc783a46fc37fe2025901ad84e c941e069f1b337ccd021609f49ed17441eb2736e M	Jenkinsfile
+:100644 100644 59c61fc6150073814600486c4d896bea76cb156a 306beac7c9edf738245592532c682581c514d03d M	variables.tf

@@ -1,0 +1,2255 @@
+Started by user [8mha:////4PAqm/0S8uwo7BB/dVT9jP+3b1sB6/X0CJBIL40dHx9IAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfpZqXnZmXnFiSm5mXkAJY29c8cAAAA=[0mjenkinsAdmin
+Started by user [8mha:////4PAqm/0S8uwo7BB/dVT9jP+3b1sB6/X0CJBIL40dHx9IAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6pcWpRfpZqXnZmXnFiSm5mXkAJY29c8cAAAA=[0mjenkinsAdmin
+Obtained Jenkinsfile from git https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform.git
+[8mha:////4C523Psxf5KmqMGLKpdAWu8EGNUwv1LElISlb8ywArgWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FAOnIfAd+meDf4mlHk8A3ONmSQzxhtA33elHlZAOfiWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4NqhzOdp+jwzKFJQq74hVuo3GMUuyfkDHhbBp25xTisOAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/DeployNgnix@2
+[8mha:////4LCh6QzrZ5mdKdqG2dE8WabMzrARrunLqZbNTBNCp5azAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OVIWsQLl3yoC2FW4pcBtFwt4+z9imv8SfWO95ONI12fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4DfE7MVfZCg9QPd2qKRkhDFfuSRsJHxxwPD2BgAdo9EVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Myh9UTrzpMqI9Tw8JsoBOjOuLG6xULfj75sfhrHh1HvAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/DeployNgnix@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform.git # timeout=10
+Fetching upstream changes from https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2ee622861dabad5c158f2c75d871807df8617443 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2ee622861dabad5c158f2c75d871807df8617443 # timeout=10
+Commit message: "Added command to remove lock files from previous terraform init commands"
+ > git rev-list --no-walk 2ee622861dabad5c158f2c75d871807df8617443 # timeout=10
+[8mha:////4HKtYKdx8djH7Lp4DTTuEEy2o68MxdXvXDmLRz5WKSAgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4G9q6sXIka0UvsooV1X+GQoZ7EDDcbXQkCgfERRKSTiZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BT0CXk7hlwHY1f+7hUgldnW6Ukx0gGjBPCE/0VcDagOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4DAsIOLeeuFT7/BEf4B1dgRxhy1pLNm9Lqy5QiMSj52DAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4Cz/ZJN6TXiZ8IJLxzIARU2HG1kIuEG+od6B1JfEQLb0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4IgvgW7f/0h5NGR/JdzFVDOE9HCdz3yjiFIQLe6C/goHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4B93wqXup8Oxj/InY5rMTfCokTR4SN//pxaZBxnSD6Z3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4BWEIDqW6+3/3ut51G9fUnLJrhDTLw9x1m+tuf4AvJ8cAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4DKHTq72AxiTeB6UZEYMM1TvjK9PSfGaxTUSwf6F9kMKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4I3HXFOLWj3rXiR7gnR0DXMqz6i/RruU+7a6x22emejgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4BrF1ABiqvf9Qr1iV6I9fJ63EeYfQooo5mz14yFtk32qAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4L1U0b0FBUTiIAPODeFNQ5LewIduqMMw6ep3ZI6bXNI5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4Mp6fu1elF9XU0z7HzpEFMIb6jlchVgAAk7WQqzczfZcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4E6e5Nd+nEdAO05pgr/RNUZEkb69uMqhmFEB9PmUjAG6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4GMxO/fGbMdtegbwSBZNKZl5v3IwGO8v5hyQp5ejr+AVAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4J+BCGifuXo6YXZWM1uOqwh04qYltogXp08vzvHXJSkSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4C37QQ71Ke2ytkN73V4GKsob2uhmMtgjIm6ljDv2NKBzAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4LI9cH9MaLfo/jauKXZaVbSaUdpSUQcH68hTo3qfsOrIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4DJOTpTEOsa0S6U+3EmReeBk89qfQqaNCUcHb8eCVBEJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/DeployNgnix@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform # timeout=10
+Fetching upstream changes from https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2ee622861dabad5c158f2c75d871807df8617443 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2ee622861dabad5c158f2c75d871807df8617443 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main 2ee622861dabad5c158f2c75d871807df8617443 # timeout=10
+Commit message: "Added command to remove lock files from previous terraform init commands"
+[8mha:////4FXwHpWbgZ0wvQAhJz8XsJ6uaJs/z46e5FEAFvX0thR+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4DDzaOKJhz7ukjP0XpRzZyAmdOHS3XiPSo/14CETmYD6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EToTywfHtYBGdoMjZpVZcHrvt6jylGqaRDcAVyFPkKyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BrmPJ1y+AAAA[0m[Pipeline] }
+[8mha:////4HTrpyZMfYgeo5PU+PKSoxE62JvNFJVo+hAXtnTU2iu3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISQYmo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B1PlWKq+AAAA[0m[Pipeline] // stage
+[8mha:////4HUBUxnZLyV/9ew6mini5PKTyZMXKMhMyuvwLMLQnu6UAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFRNCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQGtjmIwwgAAAA==[0m[Pipeline] stage
+[8mha:////4A1MBVJiAT+w20cP0cS5ukkhGGQmSG/zTNeEl6YlgN1aAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] { (Terraform init)
+[8mha:////4KgR1M1CqHq4c+LjjPdfjllvnp3wsMhp9QhrWAEsFwIFAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] tool
+[8mha:////4JytS1Ks9r894bnFnOLTWNBvsFs4Y3xAeBrSDpeqWfiyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBq1seBO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4INTgvxbOiUM1IMo4kSvWOpuHRwcSUV+NpPR+QCkdKzQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD2DV6WTCAAAA[0m[Pipeline] withEnv
+[8mha:////4BRKwtuqY6SMd16Woyp/e1qNBu6SiEVXQKEPjBTFhgRfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] {
+[8mha:////4MVBrLVu6gVjcb9JBHH2Tx3SqqQeDRPGN2qV7dE1CszdAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $AWS_ACCESS_KEY_ID or $AWS_SECRET_ACCESS_KEY
+[8mha:////4DEEkHGXB7gi2WBvq0ehTD/OUPMRSe1ZBzy3C0Hl5I48AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4IymjCvU/RcUhxuWahWLDuSf2hSyIttjTvTgZNPDj10XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ set +x
+
+[0m[1mInitializing the backend...[0m
+[0m[1mInitializing modules...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Reusing previous version of hashicorp/aws from the dependency lock file
+- Reusing previous version of hashicorp/local from the dependency lock file
+- Reusing previous version of hashicorp/tls from the dependency lock file
+- Reusing previous version of hashicorp/template from the dependency lock file
+- Using previously-installed hashicorp/aws v4.67.0
+- Using previously-installed hashicorp/local v2.4.0
+- Using previously-installed hashicorp/tls v4.0.4
+- Using previously-installed hashicorp/template v2.2.0
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[8mha:////4LKesSs8CGAbg/1DBEaewQbtTsO7ff+PZLVDLUjv8QcAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4AIvVVFC0OCm1A8LrJgCcwZ9QibfZNst11+JJ76Yg1HhAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4CuBtqjT7DB/R3VlXp2Bbowmxlf/DsT+Qoh1+j/lny2LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+i7k/SvgAAAA==[0m[Pipeline] }
+[8mha:////4HIF84bIDwmLmeJjshwtCjo2RA2bpMktLoasam6dAnS5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPr1sGoC+AAAA[0m[Pipeline] // withEnv
+[8mha:////4BvAewpG73mQYRbkiJRjxhy6Ot/o88//iEQdepmijJ72AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsP6bJewO+AAAA[0m[Pipeline] }
+[8mha:////4OPa9qODalY/jrEBXZUUYvQ081m+S57WqEVJVAzrhCfrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wG5Sy5RvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BJToqTYzAAEoJsHs0DRVQgrl3aXLZj9ZljMOm37ll92AAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSBBFEunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm3227e7zrN6bgMDowgAAAA==[0m[Pipeline] stage
+[8mha:////4FI+zWUQEsMzPlyk4ohb3pgxhHlSNYuUXX8vD6h8YGmYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (Terraform action)
+[8mha:////4HjbVKB2dbc74OyF/Pzqv993yikHDPEkq5aMT8LA7enGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] tool
+[8mha:////4KkY8oA7bEOeXze8B6J5iqg81fUOVvxIUQSqxy1D9SBAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4LHaLXzlf1vgzcC2/r/ou6K60F6O334c68o1J7uI0D8lAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAcSAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0kNDtSwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4ANOzhNKsd85LF8DIhPzeg/9aq425q2LqE+njtF6h9uDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] {
+[8mha:////4AxAYyTTjMSh+mUk7vYP/4K4kDGzPqt/6P0LgggUa+JCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $AWS_ACCESS_KEY_ID or $AWS_SECRET_ACCESS_KEY
+[8mha:////4FwaXce8POi4J7Kh/F+vcMAh89IlVQdSeoRkr/+04XYmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] {
+[8mha:////4LFS0rLq4bkwOSc4/t71mPuM2gAL3EorBjZnyuvTuyhxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] sh
++ set +x
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.template_file.user_data: Reading...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.template_file.user_data: Reading...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.template_file.user_data: Reading...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.tls_private_key.pk: Refreshing state... [id=204aa9ab647b8f2d7fd84963f6c76af3208bd1f3][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.template_file.user_data: Read complete after 0s [id=4b2e9f213439a836f4046ed3be9d4abbb564071f2d0a0d23759b669f0d467997][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.template_file.user_data: Read complete after 0s [id=4b2e9f213439a836f4046ed3be9d4abbb564071f2d0a0d23759b669f0d467997][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.template_file.user_data: Read complete after 0s [id=4b2e9f213439a836f4046ed3be9d4abbb564071f2d0a0d23759b669f0d467997][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.tls_private_key.pk: Refreshing state... [id=1cd9030bcd843f108ff696f5888e82036da2f3e8][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.tls_private_key.pk: Refreshing state... [id=f0973541112581f34f87c5d4cd1b39a21465f960][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.local_file.ssh_key: Refreshing state... [id=01f9e9aa00647f1c0d3ff2d8a3f5bad82b8e0f09][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.local_file.ssh_key: Refreshing state... [id=77fb5c7d3cf1a6b3470899d44155f9d90175145e][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.local_file.ssh_key: Refreshing state... [id=49449468090b5827b354e0a625d675bb7558a8b1][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.aws_iam_role.ec2iamprofile: Reading...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.aws_availability_zones.Azs: Reading...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.aws_ami.amazon-2: Reading...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.aws_availability_zones.Azs: Reading...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.aws_ami.amazon-2: Reading...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.aws_ami.amazon-2: Reading...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_eip.elastic-ip[0]: Refreshing state... [id=eipalloc-081188f57cb4132f6][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_key_pair.kp: Refreshing state... [id=key-20230929142125-1.pem][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_eip.elastic-ip[0]: Refreshing state... [id=eipalloc-0d0c0219d80468d27][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_vpc.vpc[0]: Refreshing state... [id=vpc-067e2c3d6b390232f][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.aws_availability_zones.Azs: Read complete after 3s [id=eu-west-3][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.aws_iam_role.ec2iamprofile: Reading...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.aws_availability_zones.Azs: Read complete after 3s [id=eu-west-2][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_key_pair.kp: Refreshing state... [id=key-20230929142125-0.pem][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.aws_ami.amazon-2: Read complete after 1s [id=ami-021c3acb0745bbbe6][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.aws_iam_role.ec2iamprofile: Read complete after 1s [id=ecsInstanceRole][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_vpc.vpc[0]: Refreshing state... [id=vpc-01011ff65187be357][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.data.aws_ami.amazon-2: Read complete after 4s [id=ami-0cb2aa5d4826fbd4d][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.data.aws_iam_role.ec2iamprofile: Read complete after 5s [id=ecsInstanceRole][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_vpc.vpc[0]: Refreshing state... [id=vpc-083e64ff9f0da67a3][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.aws_ami.amazon-2: Read complete after 5s [id=ami-07a7279e03936f08e][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_eip.elastic-ip[0]: Refreshing state... [id=eipalloc-0693200139886679a][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.aws_iam_role.ec2iamprofile: Reading...[0m[0m
+[0m[1maws_globalaccelerator_accelerator.globalacc[0]: Refreshing state... [id=arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.aws_iam_role.ec2iamprofile: Read complete after 1s [id=ecsInstanceRole][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_key_pair.kp: Refreshing state... [id=key-20230929142125-2.pem][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.aws_availability_zones.Azs: Reading...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.data.aws_availability_zones.Azs: Read complete after 0s [id=eu-west-1][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_internet_gateway.igw[0]: Refreshing state... [id=igw-0fb12d1e33b914b06][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[0]: Refreshing state... [id=subnet-080bde1157c9ff55d][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[2]: Refreshing state... [id=subnet-0c1a137997d47eb58][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_security_group.lb-sg[0]: Refreshing state... [id=sg-0c300c54f2a19b7bf][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[1]: Refreshing state... [id=subnet-0fbb463133349f94f][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[0]: Refreshing state... [id=subnet-01aaff852789117d2][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[1]: Refreshing state... [id=subnet-0e2000bc0550fe1df][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[2]: Refreshing state... [id=subnet-09a8fbca775215c82][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[1]: Refreshing state... [id=subnet-018f7f6f147e88253][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[2]: Refreshing state... [id=subnet-02a34cb7d8b1e2615][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[0]: Refreshing state... [id=subnet-0529daadef535c15b][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_internet_gateway.igw[0]: Refreshing state... [id=igw-009908ca666f5e471][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_security_group.lb-sg[0]: Refreshing state... [id=sg-0f7176034bb0c1b19][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[1]: Refreshing state... [id=subnet-0d118ca7504886f0c][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[2]: Refreshing state... [id=subnet-00c0b7f4be0a27ac3][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[0]: Refreshing state... [id=subnet-0acd5399f503e3ac7][0m
+[0m[1mmodule.MultiZone1[0].aws_lb_target_group.lbtg[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:targetgroup/lb-tgrp-20230929142125-1-0/fbe0932ce8e10ce9][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Refreshing state... [id=rtb-00b0c688db61b620a][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[1]: Refreshing state... [id=subnet-0ae1185852b929b0b][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[2]: Refreshing state... [id=subnet-00a612181a00f3760][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[0]: Refreshing state... [id=subnet-0b12429461d619d40][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[0]: Refreshing state... [id=subnet-096e8d85c81420f4d][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[1]: Refreshing state... [id=subnet-0253bb767656a4e61][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[2]: Refreshing state... [id=subnet-03d078aaedae86233][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_security_group.lb-sg[0]: Refreshing state... [id=sg-0b499789f7afec709][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_internet_gateway.igw[0]: Refreshing state... [id=igw-0910c93a5bfafc3db][0m
+[0m[1maws_globalaccelerator_listener.glbacclist[0]: Refreshing state... [id=arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3/listener/29ec1997][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_security_group.ec2-sg[0]: Refreshing state... [id=sg-0f85f5664b4742976][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Refreshing state... [id=rtb-02395008a76a1833a][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_security_group.ec2-sg[0]: Refreshing state... [id=sg-09b3e4be7d1dafc67][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_nat_gateway.natgw[0]: Refreshing state... [id=nat-0660b50cc0d91a0aa][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_nat_gateway.natgw[0]: Refreshing state... [id=nat-015398856a863185a][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table_association.rtba[0]: Refreshing state... [id=rtbassoc-0692901b06f7c9d7f][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table_association.rtba[1]: Refreshing state... [id=rtbassoc-0babd1ae7f171e245][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table_association.rtba[2]: Refreshing state... [id=rtbassoc-04a4396a5227ee2d1][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_nat_gateway.natgw[0]: Refreshing state... [id=nat-0ba64a89527e70474][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group.lbtg[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Refreshing state... [id=i-043dc7742df23d1c0][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Refreshing state... [id=i-093ff6ddd0707c783][0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:loadbalancer/app/alb-20230929142125-2-0/98ecdec59195ba8b][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Refreshing state... [id=rtb-06fd767c684756c90][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table_association.rtba[1]: Refreshing state... [id=rtbassoc-0b15e15be0f12f5f7][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Refreshing state... [id=i-0fc5e66de9dc74d5d][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table_association.rtba[0]: Refreshing state... [id=rtbassoc-09793b33c4defd08a][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table_association.rtba[2]: Refreshing state... [id=rtbassoc-0e90afc06cdc8cfe5][0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:loadbalancer/app/alb-20230929142125-1-0/e5169e21d05829b1][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Refreshing state... [id=i-0a20c326bdc85f28d][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Refreshing state... [id=i-0ffdab96e4cdb8480][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table.rtb-private[0]: Refreshing state... [id=rtb-0aa359fcb05139693][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_security_group.ec2-sg[0]: Refreshing state... [id=sg-0789cd91e6f784f2d][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table.rtb-private[0]: Refreshing state... [id=rtb-04138382b7ef217c8][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table_association.rtba[1]: Refreshing state... [id=rtbassoc-0ea5614d1110629d5][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table_association.rtba[0]: Refreshing state... [id=rtbassoc-094b51426d26f08f9][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table.rtb-private[0]: Refreshing state... [id=rtb-01d3bac0d24b1fbc5][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table_association.rtba[2]: Refreshing state... [id=rtbassoc-0a958bb566ca462f1][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table_association.rtba-private[0]: Refreshing state... [id=rtbassoc-0d74e3228c198bf16][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table_association.rtba-private[1]: Refreshing state... [id=rtbassoc-06c07f0ef49b6b62f][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table_association.rtba-private[2]: Refreshing state... [id=rtbassoc-0c98758095786ef71][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table_association.rtba-private[2]: Refreshing state... [id=rtbassoc-02714043d63cb05b0][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table_association.rtba-private[1]: Refreshing state... [id=rtbassoc-0022da15bd3fbe944][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table_association.rtba-private[0]: Refreshing state... [id=rtbassoc-0ef84bba5931f76d9][0m
+[0m[1mmodule.MultiZone1[0].aws_lb_listener.httplistener[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:listener/app/alb-20230929142125-1-0/e5169e21d05829b1/70f2b4269936ea5a][0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:loadbalancer/app/alb-20230929142125-0-0/335ea10aa01b273f][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Refreshing state... [id=i-0513e0007898e9e73][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Refreshing state... [id=i-01e4769fe91cefc0e][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Refreshing state... [id=i-07f9eba4b5e122192][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_listener.httplistener[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:listener/app/alb-20230929142125-2-0/98ecdec59195ba8b/ea1859991b58c7eb][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table_association.rtba-private[1]: Refreshing state... [id=rtbassoc-09758bafc210a4772][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table_association.rtba-private[0]: Refreshing state... [id=rtbassoc-01452b08ab9a17ca8][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table_association.rtba-private[2]: Refreshing state... [id=rtbassoc-08e92d919cbd7b1c0][0m
+[0m[1mmodule.MultiZone[0].aws_lb_listener.httplistener[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:listener/app/alb-20230929142125-0-0/335ea10aa01b273f/1c53f2faa7a8e7db][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[1]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142521376500000006][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142521068200000005][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[2]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142520748500000004][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[0]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549685700000005][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[2]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549856300000006][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[1]: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549335600000004][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+  [33m~[0m update in-place[0m
+[31m-[0m/[32m+[0m destroy and then create replacement[0m
+
+Terraform will perform the following actions:
+
+[1m  # aws_globalaccelerator_accelerator.globalacc[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_globalaccelerator_accelerator" "globalacc" {
+        id              = "arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3"
+      [33m~[0m[0m name            = "accelerator-20230929142125" -> (known after apply)
+        tags            = {}
+        [90m# (6 unchanged attributes hidden)[0m[0m
+
+        [90m# (1 unchanged block hidden)[0m[0m
+    }
+
+[1m  # aws_globalaccelerator_endpoint_group.glbaccegrp[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_globalaccelerator_endpoint_group" "glbaccegrp" {
+      [32m+[0m[0m arn                           = (known after apply)
+      [32m+[0m[0m endpoint_group_region         = "eu-west-3"
+      [32m+[0m[0m health_check_interval_seconds = 30
+      [32m+[0m[0m health_check_path             = (known after apply)
+      [32m+[0m[0m health_check_port             = (known after apply)
+      [32m+[0m[0m health_check_protocol         = "TCP"
+      [32m+[0m[0m id                            = (known after apply)
+      [32m+[0m[0m listener_arn                  = "arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3/listener/29ec1997"
+      [32m+[0m[0m threshold_count               = 3
+      [32m+[0m[0m traffic_dial_percentage       = 100
+
+      [32m+[0m[0m endpoint_configuration {
+          [32m+[0m[0m client_ip_preservation_enabled = (known after apply)
+          [32m+[0m[0m endpoint_id                    = (known after apply)
+          [32m+[0m[0m weight                         = 100
+        }
+    }
+
+[1m  # aws_globalaccelerator_endpoint_group.glbaccegrp[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_globalaccelerator_endpoint_group" "glbaccegrp" {
+      [32m+[0m[0m arn                           = (known after apply)
+      [32m+[0m[0m endpoint_group_region         = "eu-west-2"
+      [32m+[0m[0m health_check_interval_seconds = 30
+      [32m+[0m[0m health_check_path             = (known after apply)
+      [32m+[0m[0m health_check_port             = (known after apply)
+      [32m+[0m[0m health_check_protocol         = "TCP"
+      [32m+[0m[0m id                            = (known after apply)
+      [32m+[0m[0m listener_arn                  = "arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3/listener/29ec1997"
+      [32m+[0m[0m threshold_count               = 3
+      [32m+[0m[0m traffic_dial_percentage       = 100
+
+      [32m+[0m[0m endpoint_configuration {
+          [32m+[0m[0m client_ip_preservation_enabled = (known after apply)
+          [32m+[0m[0m endpoint_id                    = (known after apply)
+          [32m+[0m[0m weight                         = 100
+        }
+    }
+
+[1m  # aws_globalaccelerator_endpoint_group.glbaccegrp[2][0m will be created
+[0m  [32m+[0m[0m resource "aws_globalaccelerator_endpoint_group" "glbaccegrp" {
+      [32m+[0m[0m arn                           = (known after apply)
+      [32m+[0m[0m endpoint_group_region         = "eu-west-1"
+      [32m+[0m[0m health_check_interval_seconds = 30
+      [32m+[0m[0m health_check_path             = (known after apply)
+      [32m+[0m[0m health_check_port             = (known after apply)
+      [32m+[0m[0m health_check_protocol         = "TCP"
+      [32m+[0m[0m id                            = (known after apply)
+      [32m+[0m[0m listener_arn                  = "arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3/listener/29ec1997"
+      [32m+[0m[0m threshold_count               = 3
+      [32m+[0m[0m traffic_dial_percentage       = 100
+
+      [32m+[0m[0m endpoint_configuration {
+          [32m+[0m[0m client_ip_preservation_enabled = (known after apply)
+          [32m+[0m[0m endpoint_id                    = (known after apply)
+          [32m+[0m[0m weight                         = 100
+        }
+    }
+
+[1m  # module.MultiZone[0].aws_lb.alb[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb" "alb" {
+      [33m~[0m[0m arn                                         = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:loadbalancer/app/alb-20230929142125-0-0/335ea10aa01b273f" -> (known after apply)
+      [33m~[0m[0m arn_suffix                                  = "app/alb-20230929142125-0-0/335ea10aa01b273f" -> (known after apply)
+      [33m~[0m[0m dns_name                                    = "alb-20230929142125-0-0-1817411681.eu-west-3.elb.amazonaws.com" -> (known after apply)
+      [31m-[0m[0m enable_cross_zone_load_balancing            = true [90m-> null[0m[0m
+      [33m~[0m[0m id                                          = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:loadbalancer/app/alb-20230929142125-0-0/335ea10aa01b273f" -> (known after apply)
+      [33m~[0m[0m ip_address_type                             = "ipv4" -> (known after apply)
+      [33m~[0m[0m name                                        = "alb-20230929142125-0-0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m tags                                        = {
+          [31m-[0m[0m "Name" = "alb-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                    = {
+          [31m-[0m[0m "Name" = "alb-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m vpc_id                                      = "vpc-01011ff65187be357" -> (known after apply)
+      [33m~[0m[0m zone_id                                     = "Z3Q77PNBQS71R4" -> (known after apply)
+        [90m# (14 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m access_logs {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-00a612181a00f3760" [90m-> null[0m[0m
+        }
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-0ae1185852b929b0b" [90m-> null[0m[0m
+        }
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-0b12429461d619d40" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone[0].aws_lb_listener.httplistener[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_listener" "httplistener" {
+      [33m~[0m[0m arn               = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:listener/app/alb-20230929142125-0-0/335ea10aa01b273f/1c53f2faa7a8e7db" -> (known after apply)
+      [33m~[0m[0m id                = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:listener/app/alb-20230929142125-0-0/335ea10aa01b273f/1c53f2faa7a8e7db" -> (known after apply)
+      [33m~[0m[0m load_balancer_arn = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:loadbalancer/app/alb-20230929142125-0-0/335ea10aa01b273f" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m ssl_policy        = (known after apply)
+      [31m-[0m[0m tags              = {} [90m-> null[0m[0m
+      [33m~[0m[0m tags_all          = {} -> (known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+      [33m~[0m[0m default_action {
+          [33m~[0m[0m order            = 1 -> (known after apply)
+          [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" -> (known after apply)
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone[0].aws_lb_target_group.lbtg[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group" "lbtg" {
+      [33m~[0m[0m arn                                = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" -> (known after apply)
+      [33m~[0m[0m arn_suffix                         = "targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" -> (known after apply)
+      [33m~[0m[0m id                                 = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" -> (known after apply)
+      [33m~[0m[0m ip_address_type                    = "ipv4" -> (known after apply)
+      [33m~[0m[0m load_balancing_algorithm_type      = "round_robin" -> (known after apply)
+      [33m~[0m[0m load_balancing_cross_zone_enabled  = "use_load_balancer_configuration" -> (known after apply)
+      [33m~[0m[0m name                               = "lb-tgrp-20230929142125-0-0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m preserve_client_ip                 = (known after apply)
+      [33m~[0m[0m protocol_version                   = "HTTP1" -> (known after apply)
+      [33m~[0m[0m tags                               = {
+          [31m-[0m[0m "Name" = "lb-tgrp-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                           = {
+          [31m-[0m[0m "Name" = "lb-tgrp-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [33m~[0m[0m health_check {
+          [33m~[0m[0m matcher             = "200" -> (known after apply)
+            [90m# (8 unchanged attributes hidden)[0m[0m
+        }
+
+      [31m-[0m[0m stickiness {
+          [31m-[0m[0m cookie_duration = 86400 [90m-> null[0m[0m
+          [31m-[0m[0m enabled         = false [90m-> null[0m[0m
+          [31m-[0m[0m type            = "lb_cookie" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m target_failover {}
+    }
+
+[1m  # module.MultiZone[0].aws_lb_target_group_attachment.lbtga[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [33m~[0m[0m id               = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549685700000005" -> (known after apply)
+      [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m target_id        = "i-01e4769fe91cefc0e" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].aws_lb_target_group_attachment.lbtga[1][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [33m~[0m[0m id               = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549335600000004" -> (known after apply)
+      [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m target_id        = "i-07f9eba4b5e122192" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].aws_lb_target_group_attachment.lbtga[2][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [33m~[0m[0m id               = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549856300000006" -> (known after apply)
+      [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m target_id        = "i-0513e0007898e9e73" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].aws_lb.alb[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb" "alb" {
+      [33m~[0m[0m arn                                         = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:loadbalancer/app/alb-20230929142125-1-0/e5169e21d05829b1" -> (known after apply)
+      [33m~[0m[0m arn_suffix                                  = "app/alb-20230929142125-1-0/e5169e21d05829b1" -> (known after apply)
+      [33m~[0m[0m dns_name                                    = "alb-20230929142125-1-0-445988698.eu-west-2.elb.amazonaws.com" -> (known after apply)
+      [31m-[0m[0m enable_cross_zone_load_balancing            = true [90m-> null[0m[0m
+      [33m~[0m[0m id                                          = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:loadbalancer/app/alb-20230929142125-1-0/e5169e21d05829b1" -> (known after apply)
+      [33m~[0m[0m ip_address_type                             = "ipv4" -> (known after apply)
+      [33m~[0m[0m name                                        = "alb-20230929142125-1-0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m tags                                        = {
+          [31m-[0m[0m "Name" = "alb-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                    = {
+          [31m-[0m[0m "Name" = "alb-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m vpc_id                                      = "vpc-067e2c3d6b390232f" -> (known after apply)
+      [33m~[0m[0m zone_id                                     = "ZHURV8PSTC4K8" -> (known after apply)
+        [90m# (14 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m access_logs {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-018f7f6f147e88253" [90m-> null[0m[0m
+        }
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-02a34cb7d8b1e2615" [90m-> null[0m[0m
+        }
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-0529daadef535c15b" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone1[0].aws_lb_listener.httplistener[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_listener" "httplistener" {
+      [33m~[0m[0m arn               = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:listener/app/alb-20230929142125-1-0/e5169e21d05829b1/70f2b4269936ea5a" -> (known after apply)
+      [33m~[0m[0m id                = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:listener/app/alb-20230929142125-1-0/e5169e21d05829b1/70f2b4269936ea5a" -> (known after apply)
+      [33m~[0m[0m load_balancer_arn = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:loadbalancer/app/alb-20230929142125-1-0/e5169e21d05829b1" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m ssl_policy        = (known after apply)
+      [31m-[0m[0m tags              = {} [90m-> null[0m[0m
+      [33m~[0m[0m tags_all          = {} -> (known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+      [33m~[0m[0m default_action {
+          [33m~[0m[0m order            = 1 -> (known after apply)
+          [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:targetgroup/lb-tgrp-20230929142125-1-0/fbe0932ce8e10ce9" -> (known after apply)
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone1[0].aws_lb_target_group.lbtg[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group" "lbtg" {
+      [33m~[0m[0m arn                                = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:targetgroup/lb-tgrp-20230929142125-1-0/fbe0932ce8e10ce9" -> (known after apply)
+      [33m~[0m[0m arn_suffix                         = "targetgroup/lb-tgrp-20230929142125-1-0/fbe0932ce8e10ce9" -> (known after apply)
+      [33m~[0m[0m id                                 = "arn:aws:elasticloadbalancing:eu-west-2:428411933129:targetgroup/lb-tgrp-20230929142125-1-0/fbe0932ce8e10ce9" -> (known after apply)
+      [33m~[0m[0m ip_address_type                    = "ipv4" -> (known after apply)
+      [33m~[0m[0m load_balancing_algorithm_type      = "round_robin" -> (known after apply)
+      [33m~[0m[0m load_balancing_cross_zone_enabled  = "use_load_balancer_configuration" -> (known after apply)
+      [33m~[0m[0m name                               = "lb-tgrp-20230929142125-1-0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m preserve_client_ip                 = (known after apply)
+      [33m~[0m[0m protocol_version                   = "HTTP1" -> (known after apply)
+      [33m~[0m[0m tags                               = {
+          [31m-[0m[0m "Name" = "lb-tgrp-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                           = {
+          [31m-[0m[0m "Name" = "lb-tgrp-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [33m~[0m[0m health_check {
+          [33m~[0m[0m matcher             = "200" -> (known after apply)
+            [90m# (8 unchanged attributes hidden)[0m[0m
+        }
+
+      [31m-[0m[0m stickiness {
+          [31m-[0m[0m cookie_duration = 86400 [90m-> null[0m[0m
+          [31m-[0m[0m enabled         = false [90m-> null[0m[0m
+          [31m-[0m[0m type            = "lb_cookie" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m target_failover {}
+    }
+
+[1m  # module.MultiZone1[0].aws_lb_target_group_attachment.lbtga[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [32m+[0m[0m id               = (known after apply)
+      [32m+[0m[0m port             = 80
+      [32m+[0m[0m target_group_arn = (known after apply)
+      [32m+[0m[0m target_id        = (known after apply)
+    }
+
+[1m  # module.MultiZone1[0].aws_lb_target_group_attachment.lbtga[1][0m will be created
+[0m  [32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [32m+[0m[0m id               = (known after apply)
+      [32m+[0m[0m port             = 80
+      [32m+[0m[0m target_group_arn = (known after apply)
+      [32m+[0m[0m target_id        = (known after apply)
+    }
+
+[1m  # module.MultiZone1[0].aws_lb_target_group_attachment.lbtga[2][0m will be created
+[0m  [32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [32m+[0m[0m id               = (known after apply)
+      [32m+[0m[0m port             = 80
+      [32m+[0m[0m target_group_arn = (known after apply)
+      [32m+[0m[0m target_id        = (known after apply)
+    }
+
+[1m  # module.MultiZone2[0].aws_lb.alb[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb" "alb" {
+      [33m~[0m[0m arn                                         = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:loadbalancer/app/alb-20230929142125-2-0/98ecdec59195ba8b" -> (known after apply)
+      [33m~[0m[0m arn_suffix                                  = "app/alb-20230929142125-2-0/98ecdec59195ba8b" -> (known after apply)
+      [33m~[0m[0m dns_name                                    = "alb-20230929142125-2-0-848002971.eu-west-1.elb.amazonaws.com" -> (known after apply)
+      [31m-[0m[0m enable_cross_zone_load_balancing            = true [90m-> null[0m[0m
+      [33m~[0m[0m id                                          = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:loadbalancer/app/alb-20230929142125-2-0/98ecdec59195ba8b" -> (known after apply)
+      [33m~[0m[0m ip_address_type                             = "ipv4" -> (known after apply)
+      [33m~[0m[0m name                                        = "alb-20230929142125-2-0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m tags                                        = {
+          [31m-[0m[0m "Name" = "alb-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                    = {
+          [31m-[0m[0m "Name" = "alb-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m vpc_id                                      = "vpc-083e64ff9f0da67a3" -> (known after apply)
+      [33m~[0m[0m zone_id                                     = "Z32O12XQLNTSW2" -> (known after apply)
+        [90m# (14 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m access_logs {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-080bde1157c9ff55d" [90m-> null[0m[0m
+        }
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-09a8fbca775215c82" [90m-> null[0m[0m
+        }
+      [31m-[0m[0m subnet_mapping {
+          [31m-[0m[0m subnet_id = "subnet-0fbb463133349f94f" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone2[0].aws_lb_listener.httplistener[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_listener" "httplistener" {
+      [33m~[0m[0m arn               = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:listener/app/alb-20230929142125-2-0/98ecdec59195ba8b/ea1859991b58c7eb" -> (known after apply)
+      [33m~[0m[0m id                = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:listener/app/alb-20230929142125-2-0/98ecdec59195ba8b/ea1859991b58c7eb" -> (known after apply)
+      [33m~[0m[0m load_balancer_arn = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:loadbalancer/app/alb-20230929142125-2-0/98ecdec59195ba8b" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m ssl_policy        = (known after apply)
+      [31m-[0m[0m tags              = {} [90m-> null[0m[0m
+      [33m~[0m[0m tags_all          = {} -> (known after apply)
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+      [33m~[0m[0m default_action {
+          [33m~[0m[0m order            = 1 -> (known after apply)
+          [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" -> (known after apply)
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone2[0].aws_lb_target_group.lbtg[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group" "lbtg" {
+      [33m~[0m[0m arn                                = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" -> (known after apply)
+      [33m~[0m[0m arn_suffix                         = "targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" -> (known after apply)
+      [33m~[0m[0m id                                 = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" -> (known after apply)
+      [33m~[0m[0m ip_address_type                    = "ipv4" -> (known after apply)
+      [33m~[0m[0m load_balancing_algorithm_type      = "round_robin" -> (known after apply)
+      [33m~[0m[0m load_balancing_cross_zone_enabled  = "use_load_balancer_configuration" -> (known after apply)
+      [33m~[0m[0m name                               = "lb-tgrp-20230929142125-2-0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m preserve_client_ip                 = (known after apply)
+      [33m~[0m[0m protocol_version                   = "HTTP1" -> (known after apply)
+      [33m~[0m[0m tags                               = {
+          [31m-[0m[0m "Name" = "lb-tgrp-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                           = {
+          [31m-[0m[0m "Name" = "lb-tgrp-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [33m~[0m[0m health_check {
+          [33m~[0m[0m matcher             = "200" -> (known after apply)
+            [90m# (8 unchanged attributes hidden)[0m[0m
+        }
+
+      [31m-[0m[0m stickiness {
+          [31m-[0m[0m cookie_duration = 86400 [90m-> null[0m[0m
+          [31m-[0m[0m enabled         = false [90m-> null[0m[0m
+          [31m-[0m[0m type            = "lb_cookie" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m target_failover {}
+    }
+
+[1m  # module.MultiZone2[0].aws_lb_target_group_attachment.lbtga[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [33m~[0m[0m id               = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142521068200000005" -> (known after apply)
+      [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m target_id        = "i-043dc7742df23d1c0" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].aws_lb_target_group_attachment.lbtga[1][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [33m~[0m[0m id               = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142521376500000006" -> (known after apply)
+      [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m target_id        = "i-0fc5e66de9dc74d5d" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].aws_lb_target_group_attachment.lbtga[2][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_lb_target_group_attachment" "lbtga" {
+      [33m~[0m[0m id               = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142520748500000004" -> (known after apply)
+      [33m~[0m[0m target_group_arn = "arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m target_id        = "i-093ff6ddd0707c783" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_default_route_table.def-rtb[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_default_route_table" "def-rtb" {
+        id                     = "rtb-06fd767c684756c90"
+      [33m~[0m[0m tags                   = {
+          [31m-[0m[0m "Name" = "defaultrtb-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all               = {
+          [31m-[0m[0m "Name" = "defaultrtb-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (6 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_instance.instance[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-3:428411933129:instance/i-01e4769fe91cefc0e" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-3a" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-01e4769fe91cefc0e" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-0.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-051f0da92e939bab8" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-1-237.eu-west-3.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.1.237" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-0789cd91e6f784f2d",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-0789cd91e6f784f2d",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-0a7d984869dd58a50" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_instance.instance[1][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-3:428411933129:instance/i-07f9eba4b5e122192" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-3b" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-07f9eba4b5e122192" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-0.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-03edff82d175b6623" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-2-202.eu-west-3.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.2.202" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-0789cd91e6f784f2d",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-0-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-0-1"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-0789cd91e6f784f2d",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-0da68c6ebf3e78157" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_instance.instance[2][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-3:428411933129:instance/i-0513e0007898e9e73" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-3c" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-0513e0007898e9e73" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-0.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-04d9773b4a78786a4" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-3-74.eu-west-3.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.3.74" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-0789cd91e6f784f2d",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-0-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-0-2"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-0789cd91e6f784f2d",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-0246c34857d386eec" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_internet_gateway.igw[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_internet_gateway" "igw" {
+        id       = "igw-0910c93a5bfafc3db"
+      [33m~[0m[0m tags     = {
+          [31m-[0m[0m "Name" = "internet-gateway-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all = {
+          [31m-[0m[0m "Name" = "internet-gateway-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_key_pair.kp[0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_key_pair" "kp" {
+      [33m~[0m[0m arn             = "arn:aws:ec2:eu-west-3:428411933129:key-pair/key-20230929142125-0.pem" -> (known after apply)
+      [33m~[0m[0m fingerprint     = "9c:6b:c9:c7:c5:b7:af:1f:f6:ac:fa:4c:1f:8c:2e:f6" -> (known after apply)
+      [33m~[0m[0m id              = "key-20230929142125-0.pem" -> (known after apply)
+      [33m~[0m[0m key_name        = "key-20230929142125-0.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m key_name_prefix = (known after apply)
+      [33m~[0m[0m key_pair_id     = "key-08e97555293cf75f4" -> (known after apply)
+      [33m~[0m[0m key_type        = "rsa" -> (known after apply)
+      [31m-[0m[0m tags            = {} [90m-> null[0m[0m
+      [33m~[0m[0m tags_all        = {} -> (known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_nat_gateway.natgw[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_nat_gateway" "natgw" {
+        id                   = "nat-0ba64a89527e70474"
+      [33m~[0m[0m tags                 = {
+          [31m-[0m[0m "Name" = "nat-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all             = {
+          [31m-[0m[0m "Name" = "nat-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (7 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_route_table.rtb-private[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_route_table" "rtb-private" {
+        id               = "rtb-01d3bac0d24b1fbc5"
+      [33m~[0m[0m tags             = {
+          [31m-[0m[0m "Name" = "private-route-table-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all         = {
+          [31m-[0m[0m "Name" = "private-route-table-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (5 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_subnet.subnet[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-096e8d85c81420f4d"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_subnet.subnet[1][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-0253bb767656a4e61"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-0-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-0-1"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_subnet.subnet[2][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-03d078aaedae86233"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-0-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-0-2"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-0b12429461d619d40"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[1][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-0ae1185852b929b0b"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-0-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-0-1"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[2][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-00a612181a00f3760"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-0-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-0-2"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.aws_vpc.vpc[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_vpc" "vpc" {
+        id                                   = "vpc-01011ff65187be357"
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "vpc-20230929142125-0-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "vpc-20230929142125-0-0"
+        } -> (known after apply)
+        [90m# (16 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone[0].module.SingleZone.local_file.ssh_key[0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "local_file" "ssh_key" {
+      [33m~[0m[0m content_base64sha256 = "pBObe3ed5Ft1QJiPJm9Bsii1C6N9dAYjrrMfmYELlgk=" -> (known after apply)
+      [33m~[0m[0m content_base64sha512 = "jhIeaZWFQZNfL4zlApTmd6+eZQBiJuvduafO6XFzFxBsUIcaYfpDOqTrc4M4GY00TNBjoz8IO+ispYkrmslwMA==" -> (known after apply)
+      [33m~[0m[0m content_md5          = "6c2580ee2d17efc29c2d6a784547144e" -> (known after apply)
+      [33m~[0m[0m content_sha1         = "77fb5c7d3cf1a6b3470899d44155f9d90175145e" -> (known after apply)
+      [33m~[0m[0m content_sha256       = "a4139b7b779de45b7540988f266f41b228b50ba37d740623aeb31f99810b9609" -> (known after apply)
+      [33m~[0m[0m content_sha512       = "8e121e69958541935f2f8ce50294e677af9e65006226ebddb9a7cee9717317106c50871a61fa433aa4eb738338198d344cd063a33f083be8aca5892b9ac97030" -> (known after apply)
+      [33m~[0m[0m filename             = "key-20230929142125-0.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m id                   = "77fb5c7d3cf1a6b3470899d44155f9d90175145e" -> (known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_default_route_table.def-rtb[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_default_route_table" "def-rtb" {
+        id                     = "rtb-02395008a76a1833a"
+      [33m~[0m[0m tags                   = {
+          [31m-[0m[0m "Name" = "defaultrtb-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all               = {
+          [31m-[0m[0m "Name" = "defaultrtb-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (6 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_instance.instance[0][0m will be created
+[0m  [32m+[0m[0m resource "aws_instance" "instance" {
+      [32m+[0m[0m ami                                  = "ami-021c3acb0745bbbe6"
+      [32m+[0m[0m arn                                  = (known after apply)
+      [32m+[0m[0m associate_public_ip_address          = false
+      [32m+[0m[0m availability_zone                    = (known after apply)
+      [32m+[0m[0m cpu_core_count                       = (known after apply)
+      [32m+[0m[0m cpu_threads_per_core                 = (known after apply)
+      [32m+[0m[0m disable_api_stop                     = (known after apply)
+      [32m+[0m[0m disable_api_termination              = (known after apply)
+      [32m+[0m[0m ebs_optimized                        = (known after apply)
+      [32m+[0m[0m get_password_data                    = false
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [32m+[0m[0m iam_instance_profile                 = "ecsInstanceRole"
+      [32m+[0m[0m id                                   = (known after apply)
+      [32m+[0m[0m instance_initiated_shutdown_behavior = (known after apply)
+      [32m+[0m[0m instance_state                       = (known after apply)
+      [32m+[0m[0m instance_type                        = "t3.small"
+      [32m+[0m[0m ipv6_address_count                   = (known after apply)
+      [32m+[0m[0m ipv6_addresses                       = (known after apply)
+      [32m+[0m[0m key_name                             = (known after apply)
+      [32m+[0m[0m monitoring                           = (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [32m+[0m[0m placement_partition_number           = (known after apply)
+      [32m+[0m[0m primary_network_interface_id         = (known after apply)
+      [32m+[0m[0m private_dns                          = (known after apply)
+      [32m+[0m[0m private_ip                           = (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [32m+[0m[0m secondary_private_ips                = (known after apply)
+      [32m+[0m[0m security_groups                      = [
+          [32m+[0m[0m "sg-09b3e4be7d1dafc67",
+        ]
+      [32m+[0m[0m source_dest_check                    = true
+      [32m+[0m[0m subnet_id                            = "subnet-0acd5399f503e3ac7"
+      [32m+[0m[0m tags                                 = (known after apply)
+      [32m+[0m[0m tags_all                             = (known after apply)
+      [32m+[0m[0m tenancy                              = (known after apply)
+      [32m+[0m[0m user_data                            = "ad1c4921fcdc1e4a0c1fa5d16c7c4d9a7ee4cf00"
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [32m+[0m[0m user_data_replace_on_change          = false
+      [32m+[0m[0m vpc_security_group_ids               = (known after apply)
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_instance.instance[1][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-2:428411933129:instance/i-0a20c326bdc85f28d" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-2b" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-0a20c326bdc85f28d" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-1.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-04735104c413543d0" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-2-128.eu-west-2.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.2.128" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-09b3e4be7d1dafc67",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-1-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-1-1"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-09b3e4be7d1dafc67",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-082091c10bc42f52c" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_instance.instance[2][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-2:428411933129:instance/i-0ffdab96e4cdb8480" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-2c" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-0ffdab96e4cdb8480" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-1.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-028c1b697b12e9571" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-3-121.eu-west-2.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.3.121" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-09b3e4be7d1dafc67",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-1-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-1-2"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-09b3e4be7d1dafc67",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-0ef78276ae1f34542" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_internet_gateway.igw[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_internet_gateway" "igw" {
+        id       = "igw-009908ca666f5e471"
+      [33m~[0m[0m tags     = {
+          [31m-[0m[0m "Name" = "internet-gateway-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all = {
+          [31m-[0m[0m "Name" = "internet-gateway-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_key_pair.kp[0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_key_pair" "kp" {
+      [33m~[0m[0m arn             = "arn:aws:ec2:eu-west-2:428411933129:key-pair/key-20230929142125-1.pem" -> (known after apply)
+      [33m~[0m[0m fingerprint     = "50:e8:ff:d9:f2:0b:e0:ab:ea:0a:61:4b:9f:7a:ac:94" -> (known after apply)
+      [33m~[0m[0m id              = "key-20230929142125-1.pem" -> (known after apply)
+      [33m~[0m[0m key_name        = "key-20230929142125-1.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m key_name_prefix = (known after apply)
+      [33m~[0m[0m key_pair_id     = "key-0cc1b62558042a5c4" -> (known after apply)
+      [33m~[0m[0m key_type        = "rsa" -> (known after apply)
+      [31m-[0m[0m tags            = {} [90m-> null[0m[0m
+      [33m~[0m[0m tags_all        = {} -> (known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_nat_gateway.natgw[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_nat_gateway" "natgw" {
+        id                   = "nat-015398856a863185a"
+      [33m~[0m[0m tags                 = {
+          [31m-[0m[0m "Name" = "nat-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all             = {
+          [31m-[0m[0m "Name" = "nat-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (7 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_route_table.rtb-private[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_route_table" "rtb-private" {
+        id               = "rtb-0aa359fcb05139693"
+      [33m~[0m[0m tags             = {
+          [31m-[0m[0m "Name" = "private-route-table-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all         = {
+          [31m-[0m[0m "Name" = "private-route-table-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (5 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_subnet.subnet[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-0acd5399f503e3ac7"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_subnet.subnet[1][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-0d118ca7504886f0c"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-1-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-1-1"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_subnet.subnet[2][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-00c0b7f4be0a27ac3"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-1-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-1-2"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-0529daadef535c15b"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[1][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-018f7f6f147e88253"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-1-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-1-1"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[2][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-02a34cb7d8b1e2615"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-1-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-1-2"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.aws_vpc.vpc[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_vpc" "vpc" {
+        id                                   = "vpc-067e2c3d6b390232f"
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "vpc-20230929142125-1-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "vpc-20230929142125-1-0"
+        } -> (known after apply)
+        [90m# (16 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone1[0].module.SingleZone.local_file.ssh_key[0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "local_file" "ssh_key" {
+      [33m~[0m[0m content_base64sha256 = "/FRHDIEC8bMxNm784YWoI4C7QGzs1+Ll8XfhDp/4P7k=" -> (known after apply)
+      [33m~[0m[0m content_base64sha512 = "emYvIlRxRETATPbCUJY4cBWnzd8YRcH4/9evTSPTE8y80ew9WmEA8OnmOrWvLvxn2TTGxbX5kR5KOPG6oMU0Rg==" -> (known after apply)
+      [33m~[0m[0m content_md5          = "7fc2c8f944d6566531cc6890cc3288d5" -> (known after apply)
+      [33m~[0m[0m content_sha1         = "49449468090b5827b354e0a625d675bb7558a8b1" -> (known after apply)
+      [33m~[0m[0m content_sha256       = "fc54470c8102f1b331366efce185a82380bb406cecd7e2e5f177e10e9ff83fb9" -> (known after apply)
+      [33m~[0m[0m content_sha512       = "7a662f2254714444c04cf6c25096387015a7cddf1845c1f8ffd7af4d23d313ccbcd1ec3d5a6100f0e9e63ab5af2efc67d934c6c5b5f9911e4a38f1baa0c53446" -> (known after apply)
+      [33m~[0m[0m filename             = "key-20230929142125-1.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m id                   = "49449468090b5827b354e0a625d675bb7558a8b1" -> (known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_default_route_table.def-rtb[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_default_route_table" "def-rtb" {
+        id                     = "rtb-00b0c688db61b620a"
+      [33m~[0m[0m tags                   = {
+          [31m-[0m[0m "Name" = "defaultrtb-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all               = {
+          [31m-[0m[0m "Name" = "defaultrtb-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (6 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_instance.instance[0][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-1:428411933129:instance/i-043dc7742df23d1c0" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-1a" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-043dc7742df23d1c0" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-2.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-07b1d22dcf182f480" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-1-93.eu-west-1.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.1.93" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-0f85f5664b4742976",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-0f85f5664b4742976",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-09b7579c45a5824ef" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_instance.instance[1][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-1:428411933129:instance/i-0fc5e66de9dc74d5d" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-1b" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-0fc5e66de9dc74d5d" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-2.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-0ae08dd29b6094042" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-2-246.eu-west-1.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.2.246" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-0f85f5664b4742976",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-2-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-2-1"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-0f85f5664b4742976",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-0069ca3f8c8f5788c" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_instance.instance[2][0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_instance" "instance" {
+      [33m~[0m[0m arn                                  = "arn:aws:ec2:eu-west-1:428411933129:instance/i-093ff6ddd0707c783" -> (known after apply)
+      [33m~[0m[0m availability_zone                    = "eu-west-1c" -> (known after apply)
+      [33m~[0m[0m cpu_core_count                       = 1 -> (known after apply)
+      [33m~[0m[0m cpu_threads_per_core                 = 2 -> (known after apply)
+      [33m~[0m[0m disable_api_stop                     = false -> (known after apply)
+      [33m~[0m[0m disable_api_termination              = false -> (known after apply)
+      [33m~[0m[0m ebs_optimized                        = false -> (known after apply)
+      [31m-[0m[0m hibernation                          = false [90m-> null[0m[0m
+      [32m+[0m[0m host_id                              = (known after apply)
+      [32m+[0m[0m host_resource_group_arn              = (known after apply)
+      [33m~[0m[0m id                                   = "i-093ff6ddd0707c783" -> (known after apply)
+      [33m~[0m[0m instance_initiated_shutdown_behavior = "stop" -> (known after apply)
+      [33m~[0m[0m instance_state                       = "running" -> (known after apply)
+      [33m~[0m[0m ipv6_address_count                   = 0 -> (known after apply)
+      [33m~[0m[0m ipv6_addresses                       = [] -> (known after apply)
+      [33m~[0m[0m key_name                             = "key-20230929142125-2.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m monitoring                           = false -> (known after apply)
+      [32m+[0m[0m outpost_arn                          = (known after apply)
+      [32m+[0m[0m password_data                        = (known after apply)
+      [32m+[0m[0m placement_group                      = (known after apply)
+      [33m~[0m[0m placement_partition_number           = 0 -> (known after apply)
+      [33m~[0m[0m primary_network_interface_id         = "eni-0600632ae3aa55b89" -> (known after apply)
+      [33m~[0m[0m private_dns                          = "ip-10-0-3-245.eu-west-1.compute.internal" -> (known after apply)
+      [33m~[0m[0m private_ip                           = "10.0.3.245" -> (known after apply)
+      [32m+[0m[0m public_dns                           = (known after apply)
+      [32m+[0m[0m public_ip                            = (known after apply)
+      [33m~[0m[0m secondary_private_ips                = [] -> (known after apply)
+      [33m~[0m[0m security_groups                      = [ [31m# forces replacement[0m[0m
+          [32m+[0m[0m "sg-0f85f5664b4742976",
+        ]
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-2-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "instance-20230929142125-2-2"
+        } -> (known after apply)
+      [33m~[0m[0m tenancy                              = "default" -> (known after apply)
+      [32m+[0m[0m user_data_base64                     = (known after apply)
+      [33m~[0m[0m vpc_security_group_ids               = [
+          [31m-[0m[0m "sg-0f85f5664b4742976",
+        ] -> (known after apply)
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m capacity_reservation_specification {
+          [31m-[0m[0m capacity_reservation_preference = "open" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m cpu_options {
+          [31m-[0m[0m core_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m threads_per_core = 2 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m credit_specification {
+          [31m-[0m[0m cpu_credits = "unlimited" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enclave_options {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m maintenance_options {
+          [31m-[0m[0m auto_recovery = "default" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m metadata_options {
+          [31m-[0m[0m http_endpoint               = "enabled" [90m-> null[0m[0m
+          [31m-[0m[0m http_put_response_hop_limit = 1 [90m-> null[0m[0m
+          [31m-[0m[0m http_tokens                 = "optional" [90m-> null[0m[0m
+          [31m-[0m[0m instance_metadata_tags      = "disabled" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_dns_name_options {
+          [31m-[0m[0m enable_resource_name_dns_a_record    = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_resource_name_dns_aaaa_record = false [90m-> null[0m[0m
+          [31m-[0m[0m hostname_type                        = "ip-name" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m root_block_device {
+          [31m-[0m[0m delete_on_termination = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name           = "/dev/xvda" [90m-> null[0m[0m
+          [31m-[0m[0m encrypted             = false [90m-> null[0m[0m
+          [31m-[0m[0m iops                  = 0 [90m-> null[0m[0m
+          [31m-[0m[0m tags                  = {} [90m-> null[0m[0m
+          [31m-[0m[0m throughput            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m volume_id             = "vol-092e8c46af6fa08d0" [90m-> null[0m[0m
+          [31m-[0m[0m volume_size           = 8 [90m-> null[0m[0m
+          [31m-[0m[0m volume_type           = "standard" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_internet_gateway.igw[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_internet_gateway" "igw" {
+        id       = "igw-0fb12d1e33b914b06"
+      [33m~[0m[0m tags     = {
+          [31m-[0m[0m "Name" = "internet-gateway-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all = {
+          [31m-[0m[0m "Name" = "internet-gateway-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_key_pair.kp[0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "aws_key_pair" "kp" {
+      [33m~[0m[0m arn             = "arn:aws:ec2:eu-west-1:428411933129:key-pair/key-20230929142125-2.pem" -> (known after apply)
+      [33m~[0m[0m fingerprint     = "b1:e4:fb:f3:5c:f3:2b:2b:ad:4c:4f:cc:fc:f9:cf:86" -> (known after apply)
+      [33m~[0m[0m id              = "key-20230929142125-2.pem" -> (known after apply)
+      [33m~[0m[0m key_name        = "key-20230929142125-2.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [32m+[0m[0m key_name_prefix = (known after apply)
+      [33m~[0m[0m key_pair_id     = "key-064d39a65d8a5b775" -> (known after apply)
+      [33m~[0m[0m key_type        = "rsa" -> (known after apply)
+      [31m-[0m[0m tags            = {} [90m-> null[0m[0m
+      [33m~[0m[0m tags_all        = {} -> (known after apply)
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_nat_gateway.natgw[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_nat_gateway" "natgw" {
+        id                   = "nat-0660b50cc0d91a0aa"
+      [33m~[0m[0m tags                 = {
+          [31m-[0m[0m "Name" = "nat-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all             = {
+          [31m-[0m[0m "Name" = "nat-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (7 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_route_table.rtb-private[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_route_table" "rtb-private" {
+        id               = "rtb-04138382b7ef217c8"
+      [33m~[0m[0m tags             = {
+          [31m-[0m[0m "Name" = "private-route-table-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all         = {
+          [31m-[0m[0m "Name" = "private-route-table-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (5 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_subnet.subnet[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-01aaff852789117d2"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_subnet.subnet[1][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-0e2000bc0550fe1df"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-2-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-2-1"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_subnet.subnet[2][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet" {
+        id                                             = "subnet-0c1a137997d47eb58"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-2-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "subnet-20230929142125-2-2"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-080bde1157c9ff55d"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[1][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-0fbb463133349f94f"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-2-1"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-2-1"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[2][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_subnet" "subnet-public" {
+        id                                             = "subnet-09a8fbca775215c82"
+      [33m~[0m[0m tags                                           = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-2-2"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                                       = {
+          [31m-[0m[0m "Name" = "public-subnet-20230929142125-2-2"
+        } -> (known after apply)
+        [90m# (15 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.aws_vpc.vpc[0][0m will be updated in-place
+[0m  [33m~[0m[0m resource "aws_vpc" "vpc" {
+        id                                   = "vpc-083e64ff9f0da67a3"
+      [33m~[0m[0m tags                                 = {
+          [31m-[0m[0m "Name" = "vpc-20230929142125-2-0"
+        } -> (known after apply)
+      [33m~[0m[0m tags_all                             = {
+          [31m-[0m[0m "Name" = "vpc-20230929142125-2-0"
+        } -> (known after apply)
+        [90m# (16 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # module.MultiZone2[0].module.SingleZone.local_file.ssh_key[0m must be [1m[31mreplaced[0m
+[0m[31m-[0m/[32m+[0m[0m resource "local_file" "ssh_key" {
+      [33m~[0m[0m content_base64sha256 = "LcWvYGKJpqJm6C2FapdITqJhlW28Ivx1Nlv5fxuG/rk=" -> (known after apply)
+      [33m~[0m[0m content_base64sha512 = "0oH0Gc0O9XvJeGYIzh0m7zOld7vBnqeLIKtSNjdIEbVM4kWGh0OF2GkNAycLe8tMwLe8xVE2POq84NahYYfy3A==" -> (known after apply)
+      [33m~[0m[0m content_md5          = "c0916d273f0614e1349d45bbb53e6f05" -> (known after apply)
+      [33m~[0m[0m content_sha1         = "01f9e9aa00647f1c0d3ff2d8a3f5bad82b8e0f09" -> (known after apply)
+      [33m~[0m[0m content_sha256       = "2dc5af606289a6a266e82d856a97484ea261956dbc22fc75365bf97f1b86feb9" -> (known after apply)
+      [33m~[0m[0m content_sha512       = "d281f419cd0ef57bc9786608ce1d26ef33a577bbc19ea78b20ab5236374811b54ce24586874385d8690d03270b7bcb4cc0b7bcc551363ceabce0d6a16187f2dc" -> (known after apply)
+      [33m~[0m[0m filename             = "key-20230929142125-2.pem" [31m# forces replacement[0m[0m -> (known after apply) [31m# forces replacement[0m[0m
+      [33m~[0m[0m id                   = "01f9e9aa00647f1c0d3ff2d8a3f5bad82b8e0f09" -> (known after apply)
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1mPlan:[0m 36 to add, 34 to change, 29 to destroy.
+[0m
+Changes to Outputs:
+  [32m+[0m[0m EC2_Instance_Ids            = [
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+    ]
+  [32m+[0m[0m EC2_Instance_Public_IPs     = [
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+    ]
+  [32m+[0m[0m Load_Balancer_Arns          = [
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+    ]
+  [32m+[0m[0m Load_Balancer_Dns_Names     = [
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+      [32m+[0m[0m (known after apply),
+    ]
+[0m[1mmodule.MultiZone1[0].module.SingleZone.local_file.ssh_key: Destroying... [id=49449468090b5827b354e0a625d675bb7558a8b1][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.local_file.ssh_key: Destroying... [id=77fb5c7d3cf1a6b3470899d44155f9d90175145e][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.local_file.ssh_key: Destroying... [id=01f9e9aa00647f1c0d3ff2d8a3f5bad82b8e0f09][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.local_file.ssh_key: Destruction complete after 0s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.local_file.ssh_key: Destruction complete after 0s[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.local_file.ssh_key: Destruction complete after 0s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.local_file.ssh_key: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.local_file.ssh_key: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.local_file.ssh_key: Creation complete after 0s [id=49449468090b5827b354e0a625d675bb7558a8b1][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.local_file.ssh_key: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.local_file.ssh_key: Creation complete after 0s [id=77fb5c7d3cf1a6b3470899d44155f9d90175145e][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.local_file.ssh_key: Creation complete after 0s [id=01f9e9aa00647f1c0d3ff2d8a3f5bad82b8e0f09][0m
+[0m[1mmodule.MultiZone[0].aws_lb_listener.httplistener[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:listener/app/alb-20230929142125-0-0/335ea10aa01b273f/1c53f2faa7a8e7db][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549685700000005][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[2]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549856300000006][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[1]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6-20230929142549335600000004][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[1]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142521376500000006][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[2]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142520748500000004][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6-20230929142521068200000005][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_listener.httplistener[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:listener/app/alb-20230929142125-2-0/98ecdec59195ba8b/ea1859991b58c7eb][0m[0m
+[0m[1maws_globalaccelerator_accelerator.globalacc[0]: Modifying... [id=arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[0]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[2]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[0]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[1]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[1]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Destroying... [id=i-01e4769fe91cefc0e][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Destroying... [id=i-0513e0007898e9e73][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Destroying... [id=i-07f9eba4b5e122192][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[2]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Destroying... [id=i-0fc5e66de9dc74d5d][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Destroying... [id=i-093ff6ddd0707c783][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Destroying... [id=i-043dc7742df23d1c0][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_listener.httplistener[0]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group.lbtg[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142125-0-0/2bcaafcc9d2accc6][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_listener.httplistener[0]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group.lbtg[0]: Destruction complete after 0s[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142125-2-0/34ddac6b11f601f6][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:loadbalancer/app/alb-20230929142125-0-0/335ea10aa01b273f][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:loadbalancer/app/alb-20230929142125-2-0/98ecdec59195ba8b][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_listener.httplistener[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:listener/app/alb-20230929142125-1-0/e5169e21d05829b1/70f2b4269936ea5a][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_listener.httplistener[0]: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Destroying... [id=i-0a20c326bdc85f28d][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Destruction complete after 3s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Destroying... [id=i-0ffdab96e4cdb8480][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Destruction complete after 2s[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_target_group.lbtg[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:targetgroup/lb-tgrp-20230929142125-1-0/fbe0932ce8e10ce9][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_target_group.lbtg[0]: Destruction complete after 0s[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Destroying... [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:loadbalancer/app/alb-20230929142125-1-0/e5169e21d05829b1][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Destruction complete after 2s[0m
+[0m[1maws_globalaccelerator_accelerator.globalacc[0]: Still modifying... [id=arn:aws:globalaccelerator::428411933129...r/f68c17ea-78c2-4110-b5bb-84e901b5dca3, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-07f9eba4b5e122192, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0513e0007898e9e73, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-0fc5e66de9dc74d5d, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-093ff6ddd0707c783, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-043dc7742df23d1c0, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-0a20c326bdc85f28d, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0ffdab96e4cdb8480, 10s elapsed][0m[0m
+[0m[1maws_globalaccelerator_accelerator.globalacc[0]: Still modifying... [id=arn:aws:globalaccelerator::428411933129...r/f68c17ea-78c2-4110-b5bb-84e901b5dca3, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-07f9eba4b5e122192, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0513e0007898e9e73, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-0fc5e66de9dc74d5d, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-093ff6ddd0707c783, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-043dc7742df23d1c0, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Destruction complete after 21s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-0a20c326bdc85f28d, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0ffdab96e4cdb8480, 20s elapsed][0m[0m
+[0m[1maws_globalaccelerator_accelerator.globalacc[0]: Modifications complete after 28s [id=arn:aws:globalaccelerator::428411933129:accelerator/f68c17ea-78c2-4110-b5bb-84e901b5dca3][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0513e0007898e9e73, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-07f9eba4b5e122192, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-093ff6ddd0707c783, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-043dc7742df23d1c0, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-0a20c326bdc85f28d, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Destruction complete after 32s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0ffdab96e4cdb8480, 30s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-07f9eba4b5e122192, 40s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0513e0007898e9e73, 40s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 40s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-043dc7742df23d1c0, 40s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Still destroying... [id=i-0a20c326bdc85f28d, 40s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Destruction complete after 42s[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Destruction complete after 42s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0ffdab96e4cdb8480, 40s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Destruction complete after 41s[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 50s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-043dc7742df23d1c0, 50s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0ffdab96e4cdb8480, 50s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 1m0s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-043dc7742df23d1c0, 1m0s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Destruction complete after 1m2s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still destroying... [id=i-0ffdab96e4cdb8480, 1m0s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_key_pair.kp: Destroying... [id=key-20230929142125-2.pem][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Destruction complete after 1m1s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_key_pair.kp: Destroying... [id=key-20230929142125-1.pem][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_key_pair.kp: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_key_pair.kp: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_vpc.vpc[0]: Modifying... [id=vpc-067e2c3d6b390232f][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_vpc.vpc[0]: Modifying... [id=vpc-083e64ff9f0da67a3][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 1m10s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_key_pair.kp: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_key_pair.kp: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_vpc.vpc[0]: Still modifying... [id=vpc-067e2c3d6b390232f, 11s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_vpc.vpc[0]: Still modifying... [id=vpc-083e64ff9f0da67a3, 11s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_key_pair.kp: Creation complete after 8s [id=key-20230929142734-2.pem][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_key_pair.kp: Creation complete after 10s [id=key-20230929142734-1.pem][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still destroying... [id=i-01e4769fe91cefc0e, 1m20s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_vpc.vpc[0]: Modifications complete after 16s [id=vpc-067e2c3d6b390232f][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_vpc.vpc[0]: Modifications complete after 18s [id=vpc-083e64ff9f0da67a3][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Destruction complete after 1m27s[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[0]: Modifying... [id=subnet-0529daadef535c15b][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[2]: Modifying... [id=subnet-02a34cb7d8b1e2615][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_internet_gateway.igw[0]: Modifying... [id=igw-009908ca666f5e471][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[1]: Modifying... [id=subnet-0d118ca7504886f0c][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[2]: Modifying... [id=subnet-00c0b7f4be0a27ac3][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[1]: Modifying... [id=subnet-018f7f6f147e88253][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[0]: Modifying... [id=subnet-0acd5399f503e3ac7][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[0]: Modifying... [id=subnet-080bde1157c9ff55d][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[1]: Modifying... [id=subnet-0e2000bc0550fe1df][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_internet_gateway.igw[0]: Modifying... [id=igw-0fb12d1e33b914b06][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_internet_gateway.igw[0]: Modifications complete after 1s [id=igw-009908ca666f5e471][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[0]: Modifications complete after 2s [id=subnet-0acd5399f503e3ac7][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[2]: Modifications complete after 2s [id=subnet-02a34cb7d8b1e2615][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[1]: Modifications complete after 2s [id=subnet-0d118ca7504886f0c][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[1]: Modifications complete after 2s [id=subnet-018f7f6f147e88253][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet[2]: Modifications complete after 2s [id=subnet-00c0b7f4be0a27ac3][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_subnet.subnet-public[0]: Modifications complete after 3s [id=subnet-0529daadef535c15b][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[0]: Modifications complete after 2s [id=subnet-080bde1157c9ff55d][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_internet_gateway.igw[0]: Modifications complete after 2s [id=igw-0fb12d1e33b914b06][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[1]: Modifications complete after 2s [id=subnet-0e2000bc0550fe1df][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[2]: Modifying... [id=subnet-09a8fbca775215c82][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_key_pair.kp: Destroying... [id=key-20230929142125-0.pem][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[0]: Modifying... [id=subnet-01aaff852789117d2][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_key_pair.kp: Destruction complete after 1s[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[2]: Modifying... [id=subnet-0c1a137997d47eb58][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Modifying... [id=rtb-02395008a76a1833a][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_vpc.vpc[0]: Modifying... [id=vpc-01011ff65187be357][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Modifications complete after 2s [id=rtb-02395008a76a1833a][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[1]: Modifying... [id=subnet-0fbb463133349f94f][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[1]: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[2]: Modifications complete after 5s [id=subnet-09a8fbca775215c82][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[2]: Modifications complete after 4s [id=subnet-0c1a137997d47eb58][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_nat_gateway.natgw[0]: Modifying... [id=nat-015398856a863185a][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet[0]: Modifications complete after 4s [id=subnet-01aaff852789117d2][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_nat_gateway.natgw[0]: Modifications complete after 3s [id=nat-015398856a863185a][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_subnet.subnet-public[1]: Modifications complete after 4s [id=subnet-0fbb463133349f94f][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_vpc.vpc[0]: Modifications complete after 6s [id=vpc-01011ff65187be357][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Modifying... [id=rtb-00b0c688db61b620a][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_target_group.lbtg[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_key_pair.kp: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table.rtb-private[0]: Modifying... [id=rtb-0aa359fcb05139693][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_key_pair.kp: Creation complete after 5s [id=key-20230929142734-0.pem][0m
+[0m[1mmodule.MultiZone1[0].aws_lb_target_group.lbtg[0]: Creation complete after 8s [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:targetgroup/lb-tgrp-20230929142734-1-0/6c03cbc9ae3f1353][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Still modifying... [id=rtb-00b0c688db61b620a, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [11s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[0]: Still creating... [19s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table.rtb-private[0]: Still modifying... [id=rtb-0aa359fcb05139693, 11s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Still modifying... [id=rtb-00b0c688db61b620a, 20s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [21s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_route_table.rtb-private[0]: Modifications complete after 17s [id=rtb-0aa359fcb05139693][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[0]: Creation complete after 29s [id=i-01e2af3632557ae59][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group.lbtg[0]: Creation complete after 23s [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142734-2-0/e938e49430345314][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still creating... [30s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_nat_gateway.natgw[0]: Modifying... [id=nat-0660b50cc0d91a0aa][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Modifications complete after 25s [id=rtb-00b0c688db61b620a][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_nat_gateway.natgw[0]: Modifications complete after 3s [id=nat-0660b50cc0d91a0aa][0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [31s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_internet_gateway.igw[0]: Modifying... [id=igw-0910c93a5bfafc3db][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still creating... [40s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[0]: Modifying... [id=subnet-0b12429461d619d40][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_internet_gateway.igw[0]: Modifications complete after 2s [id=igw-0910c93a5bfafc3db][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[2]: Modifying... [id=subnet-00a612181a00f3760][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Still creating... [12s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[0]: Modifying... [id=subnet-096e8d85c81420f4d][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still creating... [11s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[0]: Modifications complete after 2s [id=subnet-0b12429461d619d40][0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [41s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still creating... [50s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[2]: Still modifying... [id=subnet-00a612181a00f3760, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Still creating... [22s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still creating... [21s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[0]: Still modifying... [id=subnet-096e8d85c81420f4d, 10s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [51s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[2]: Modifying... [id=subnet-03d078aaedae86233][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[2]: Modifications complete after 18s [id=subnet-00a612181a00f3760][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Still creating... [1m0s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[0]: Modifications complete after 16s [id=subnet-096e8d85c81420f4d][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[2]: Creation complete after 29s [id=i-04e9cc45772f10503][0m
+[0m[1mmodule.MultiZone1[0].module.SingleZone.aws_instance.instance[2]: Creation complete after 1m1s [id=i-06f596abc2d035c31][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[1]: Modifying... [id=subnet-0ae1185852b929b0b][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[1]: Modifying... [id=subnet-0253bb767656a4e61][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[2]: Modifications complete after 3s [id=subnet-03d078aaedae86233][0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still creating... [31s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table.rtb-private[0]: Modifying... [id=rtb-04138382b7ef217c8][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet-public[1]: Modifications complete after 4s [id=subnet-0ae1185852b929b0b][0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_route_table.rtb-private[0]: Modifications complete after 2s [id=rtb-04138382b7ef217c8][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group.lbtg[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_subnet.subnet[1]: Modifications complete after 6s [id=subnet-0253bb767656a4e61][0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [1m1s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_nat_gateway.natgw[0]: Modifying... [id=nat-0ba64a89527e70474][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_nat_gateway.natgw[0]: Modifications complete after 1s [id=nat-0ba64a89527e70474][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Modifying... [id=rtb-06fd767c684756c90][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_default_route_table.def-rtb[0]: Modifications complete after 2s [id=rtb-06fd767c684756c90][0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Still creating... [41s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table.rtb-private[0]: Modifying... [id=rtb-01d3bac0d24b1fbc5][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[0]: Creation complete after 42s [id=i-071f7ce9e9f08f1f4][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group.lbtg[0]: Creation complete after 8s [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142734-0-0/e48714ac5fde970e][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_route_table.rtb-private[0]: Modifications complete after 2s [id=rtb-01d3bac0d24b1fbc5][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [11s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [1m11s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].module.SingleZone.aws_instance.instance[1]: Creation complete after 20s [id=i-0a9dcf4c90b99087c][0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [20s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Still creating... [10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [21s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [1m21s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[1]: Creation complete after 16s [id=i-0e961cb824a5b586d][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[2]: Creation complete after 15s [id=i-0cd8bc609a6760eda][0m
+[0m[1mmodule.MultiZone[0].module.SingleZone.aws_instance.instance[0]: Creation complete after 16s [id=i-08c8aa03012173388][0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [30s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [31s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [1m31s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [40s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [41s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [1m41s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [50s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [51s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [1m51s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [1m0s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [1m1s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [2m1s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [1m10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [1m11s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [2m11s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [1m20s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [1m21s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Still creating... [2m21s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [1m30s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb.alb[0]: Creation complete after 2m29s [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:loadbalancer/app/alb-20230929142734-1-0/cd9b1c940b1d4e95][0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [1m31s elapsed][0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_listener.httplistener[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone1[0].aws_lb_listener.httplistener[0]: Creation complete after 2s [id=arn:aws:elasticloadbalancing:eu-west-2:428411933129:listener/app/alb-20230929142734-1-0/cd9b1c940b1d4e95/b843e01b5f098654][0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [1m40s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [1m41s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [1m50s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [1m51s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [2m0s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [2m1s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [2m10s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [2m11s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Still creating... [2m20s elapsed][0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Still creating... [2m21s elapsed][0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb.alb[0]: Creation complete after 2m24s [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:loadbalancer/app/alb-20230929142734-2-0/d8d73f0946560062][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[1]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[2]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_listener.httplistener[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[2]: Creation complete after 1s [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142734-2-0/e938e49430345314-20230929143301672300000004][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[1]: Creation complete after 1s [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142734-2-0/e938e49430345314-20230929143302001700000005][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_target_group_attachment.lbtga[0]: Creation complete after 2s [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:targetgroup/lb-tgrp-20230929142734-2-0/e938e49430345314-20230929143302533900000006][0m
+[0m[1mmodule.MultiZone2[0].aws_lb_listener.httplistener[0]: Creation complete after 2s [id=arn:aws:elasticloadbalancing:eu-west-1:428411933129:listener/app/alb-20230929142734-2-0/d8d73f0946560062/46df4cf5225d58ca][0m
+[0m[1mmodule.MultiZone[0].aws_lb.alb[0]: Creation complete after 2m29s [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:loadbalancer/app/alb-20230929142734-0-0/426cd03d3b20014b][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[1]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[2]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_listener.httplistener[0]: Creating...[0m[0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[2]: Creation complete after 1s [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142734-0-0/e48714ac5fde970e-20230929143309566700000004][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[0]: Creation complete after 1s [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142734-0-0/e48714ac5fde970e-20230929143309937400000005][0m
+[0m[1mmodule.MultiZone[0].aws_lb_target_group_attachment.lbtga[1]: Creation complete after 1s [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:targetgroup/lb-tgrp-20230929142734-0-0/e48714ac5fde970e-20230929143310132000000006][0m
+[0m[1mmodule.MultiZone[0].aws_lb_listener.httplistener[0]: Creation complete after 2s [id=arn:aws:elasticloadbalancing:eu-west-3:428411933129:listener/app/alb-20230929142734-0-0/426cd03d3b20014b/43f6a34afc70f8be][0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mcreating EC2 Instance: PendingVerification: Your request for accessing resources in this region is being validated, and you will not be able to launch additional resources in this region until the validation is complete. We will notify you by email once your request has been validated. While normally resolved within minutes, please allow up to 4 hours for this process to complete. If the issue still persists, then open a support case. [https://support.console.aws.amazon.com/support/home?region=us-east-1#/case/create?issueType=customer-service&serviceCode=account-management&categoryCode=account-verification]
+[31m│[0m [0m	status code: 400, request id: 30819f47-64e2-4f37-83eb-f3c3c149ae5e[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with module.MultiZone1[0].module.SingleZone.aws_instance.instance[1],
+[31m│[0m [0m  on ../SingleZone/resources.tf line 247, in resource "aws_instance" "instance":
+[31m│[0m [0m 247: resource "aws_instance" "instance" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+[8mha:////4JFR6rNPhMgdcLAWmYzl/rNn+rxWumtYn/cCQEOQ1neUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BqeGDU++AAAA[0m[Pipeline] }
+[8mha:////4DCRInQCe29mVCNalpRWP9Tp6z8pOmRHm7WQKOSWenFxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGfxJ6+vgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4NRHRMLxaD/Li7frIFvPhQp1BNP6bjpEJXzTFeYH0EzQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGARsvsvgAAAA==[0m[Pipeline] }
+[8mha:////4MnKvGaOxOHUgRg2QUWMLPJk7P4C49CRtGU1Aku56sPtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCg4SEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHDxJpqvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4GG6O5Zn00nzN9hguAFCfcMQo1ts25iB5SgwX35g1oWBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+Es7kmvgAAAA==[0m[Pipeline] }
+[8mha:////4KCs1gsKzKqxGu6idQIXN+L7SVyKi5T6BORUOZjBRm5yAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgdIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFHyFlHvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HwtuxZCNGuOMPpgWG5t1nl+2YY+u6JqyPV5V20feTvCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUXZAQYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g0KoVpiwgAAAA==[0m[Pipeline] stage
+[8mha:////4H+jULOSAE+AaD8kUOC5lE6toNPRMUkIMU8W4LdL45QIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (Terraform output)
+Stage "Terraform output" skipped due to earlier failure(s)
+[8mha:////4JML/BRzc7UdPYo151Z2M4crCs7xKf0wFBocNMBct0oDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFyHJb0vgAAAA==[0m[Pipeline] }
+[8mha:////4PJfm+T5e0WpGaO5HbYbX4cnbyqirOE3g5MPED0I8AO+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFwfZpwvgAAAA==[0m[Pipeline] // stage
+[8mha:////4F2AW+lHhZ15ci+nDasF6BVaNh65iHXM9sn604PgjyoqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv8u1PXwAILBc+r4AAAA=[0m[Pipeline] }
+[8mha:////4DakDWBD3a8mLJSp4EjKt2bugQR2UFZb585ZmM/6CXhwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRTYSEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw8Y8s8LvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Ij8N48n/0usRP9HHqeoT9guuiWuizienVhIUAwV1If6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QEZmU+5vgAAAA==[0m[Pipeline] }
+[8mha:////4KE5v9UyWOiJseopJOA8CdQE89MgrfEQGAlwawkv0CkPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDUJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9aGx4/vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4B9uWKqoMJq74aVGoyyhvDxGhYi8cD7wJQZfGWz7ZCzGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AEx5UMK9AAAA[0m[Pipeline] }
+[8mha:////4KJwL8b5vRdr67HyoGrOmQjjn5IRrpRLErxuKtTP2DDXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9ADtdeJq9AAAA[0m[Pipeline] // node
+[8mha:////4ED+ZdpOu8Iiad5H/rbXhltTlymQqWTihEYBQERDkhfKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPHUQf0L0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

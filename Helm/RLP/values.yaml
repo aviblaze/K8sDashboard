@@ -1,0 +1,57 @@
+masterIp: ""
+jenkinsUserName: "jenkinsAdmin"
+jenkinsPassword: "jenkins123"
+elasticsearch:
+  antiAffinity: "soft"
+  replicas: 1
+  minimumMasterNodes: 1
+  volumeClaimTemplate:
+    accessModes: ["ReadWriteOnce"]
+    storageClassName: "standard"
+    resources:
+      requests:
+        storage: 20Gi
+  resources:
+    requests:
+      cpu: "1"
+      memory: "2Gi"
+    limits:
+      cpu: "2"
+    memory: "4Gi"
+  nodeSelector:
+    node-role.kubernetes.io/master: ""
+  tolerations:
+  - key: "node-role.kubernetes.io/master"
+    effect: "NoSchedule"
+    operator: "Exists"
+
+  readinessProbe:
+    initialDelaySeconds: 240
+    periodSeconds: 200
+
+filebeat:
+  extraInitContainers: |
+    - name: waitforelasticsearch
+      image: busybox:1.31.1
+      command: ['sh', '-c', 'sleep 360']
+  readinessProbe:
+    initialDelaySeconds: 360
+    periodSeconds: 120
+
+metricbeat: 
+  extraInitContainers: |
+    - name: waitforelasticsearch
+      image: busybox:1.31.1
+      command: ['sh', '-c', 'sleep 360']
+  readinessProbe:
+    initialDelaySeconds: 360
+    periodSeconds: 120
+
+# kibana:
+#   extraInitContainers: |
+#     - name: waitforelasticsearch
+#       image: busybox:1.31.1
+#       command: ['sh', '-c', 'sleep 360']
+#   readinessProbe:
+#     initialDelaySeconds: 240
+#     periodSeconds: 120

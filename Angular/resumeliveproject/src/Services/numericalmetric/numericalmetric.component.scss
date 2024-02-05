@@ -1,0 +1,34 @@
+/* In child component CSS */
+:host {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* Other styles as needed */
+  }
+  
+.metric-data-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin: auto;
+}
+
+.metric-data-container .metric-data {
+    font-size: 32px;
+    color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+.metric-data-container .metric-details {
+    font-size: 10px;
+    color: #333;
+}
+
+.metric-data-container p {
+    margin: 0;
+    padding: 0;
+}

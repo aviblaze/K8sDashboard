@@ -1,0 +1,22 @@
+<div class="horizontal-container">
+    <button mat-icon-button class="arrow left-arrow" (click)="onArrowClick('left')">
+        <mat-icon>chevron_left</mat-icon>
+    </button>
+
+    <div class="item-container">
+        <div class="item" *ngFor="let item of items; let i = index" [class.active]="i === currentIndex">
+            <img [src]="item.image" alt="{{item.title}}">
+            <h3>{{item.title}}</h3>
+            <p [innerHtml]="item.description"></p>
+        </div>
+    </div>
+
+    <button mat-icon-button class="arrow right-arrow" (click)="onArrowClick('right')">
+        <mat-icon>chevron_right</mat-icon>
+    </button>
+</div>
+
+<div class="indicators">
+    <button *ngFor="let item of items; let i = index" mat-mini-fab [class.active]="i === currentIndex">
+    </button>
+</div>

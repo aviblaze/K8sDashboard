@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-08-08 21:36:55.266 UTC</timestamp>
+  <md5sum>3bd1b5932bdb56aa69bf02f53652d8e9</md5sum>
+  <fileName>Credential id=awsCreds name=awsCreds</fileName>
+  <usages>
+    <entry>
+      <string>DeployNgnix</string>
+      <ranges>85-86,88-121</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

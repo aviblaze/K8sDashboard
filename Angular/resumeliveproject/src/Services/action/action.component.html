@@ -1,0 +1,9 @@
+<div class="data-container">
+    <button mat-fab class="play-button" (click)="isDisabled  ? openPopup() : onClick()" [ngClass]="{'success-status': status === 'success', 'failure-status': status === 'failure', 'not-started-status': status === 'not started'}">
+        <mat-icon *ngIf="status !== 'in_progress'">{{ getIconName() }}</mat-icon>
+        <mat-spinner *ngIf="status === 'in_progress'" diameter="30" class="in-progress-spinner"></mat-spinner>
+    </button>    
+    <div class="details">
+        <p>{{title}}</p>
+    </div>
+</div>

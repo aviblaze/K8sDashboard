@@ -1,0 +1,12 @@
+<div class="metric-data-container">
+    <div *ngIf="showIcon">
+        <mat-icon *ngIf="metricdata" style="color: green;; font-size: 26px;">check_circle</mat-icon>     
+        <mat-icon *ngIf="!metricdata" style="color: red;; font-size: 26px;">cancel</mat-icon>
+      </div>      
+    <div *ngIf="!showIcon" class="metric-data">
+        <p>{{metricdata}}</p>
+    </div>
+    <div class="metric-details">
+        <p>{{metricname}}</p>
+    </div>
+</div>

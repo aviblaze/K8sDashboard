@@ -1,0 +1,10 @@
+commit bb9213ac2b4d771537aaf668734ee884dd8aa186
+tree 10837eb25cc7dd9f5b6886f077d1ddfaef90a14a
+parent b20f66256e588d39b78ebb0b23fc7ce1166c0857
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:30:24 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:30:24 +0530
+
+    Modified the code to store creds in environment varaibles
+
+
+:100644 100644 f94cdf570b39ce2616f3ce6f658f1b114d3af9b0 84a5965482e5990416f502f8fce505da1bce5aef M	Jenkinsfile

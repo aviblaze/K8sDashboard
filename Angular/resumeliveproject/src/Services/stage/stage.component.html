@@ -1,0 +1,9 @@
+<div class="data-container">
+    <mat-card class="stage-card"
+        [ngClass]="{'not-started': status === 'not started', 'in_progress': status === 'in_progress', 'success': status === 'success', 'failed': status === 'failure'}">
+        <mat-card-title>{{ name }}</mat-card-title>
+        <mat-card-content>
+            {{ description }}
+        </mat-card-content>
+    </mat-card>
+</div>

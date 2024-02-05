@@ -1,0 +1,10 @@
+commit 71fb4f2e5797d64c44fc39d173aaab4625b0e6d6
+tree 7e53aec7b6ba5a2a3f93f2e09677b5764584efc8
+parent b0243eaa44b83aa53e4b2bf5a09f9c267bb747c3
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 10:42:00 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 10:42:00 +0530
+
+    Corrected syntax error.
+
+
+:100644 100644 1d6c8ee398374db2f186a631b5bcd1716084294c 62c04d2e7f6615cc6d1073896277db5cd5979b65 M	Jenkinsfile

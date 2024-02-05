@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2023-12-26T15:52:56.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="0gPbPzJ_JEdl2xu98zaU" version="22.1.2" type="device" pages="2">
+  <diagram name="Overview" id="gJEcOB1qcbcvhSjvenNO">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lpiRt4taolN0QC5EKisJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="420" as="sourcePoint" />
+            <mxPoint x="410" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="490" />
+              <mxPoint x="410" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-1" value="Angular&lt;br&gt;Application&amp;nbsp;&lt;br&gt;code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lpiRt4taolN0QC5EKisJ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-2" value="Terraform Code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lpiRt4taolN0QC5EKisJ-3" target="lpiRt4taolN0QC5EKisJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="490" />
+              <mxPoint x="411" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-3" value="Helm Chart&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lpiRt4taolN0QC5EKisJ-4" target="lpiRt4taolN0QC5EKisJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-4" value="GitHub" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lpiRt4taolN0QC5EKisJ-8" target="lpiRt4taolN0QC5EKisJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-8" value="Application UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="860" width="690" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lpiRt4taolN0QC5EKisJ-11" target="lpiRt4taolN0QC5EKisJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-11" value="K8S Master Node&lt;br&gt;Git" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lpiRt4taolN0QC5EKisJ-14" target="lpiRt4taolN0QC5EKisJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpiRt4taolN0QC5EKisJ-14" value="Jenkins Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pikKEVAgMjoZ6AbZwxGX" name="Infrastructure">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vYHVK4mFEUllEb8YW9xC-1" value="Master Node ||&amp;nbsp; c2x.large&lt;br&gt;Git,Jenkins, Kibana,elasticsearch,Grafana,Prometheus,Kubemetric API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHVK4mFEUllEb8YW9xC-2" value="Auto Scaling group || t2.micro&lt;br&gt;Application || fluentd deployment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vYHVK4mFEUllEb8YW9xC-4" value="Application Load balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

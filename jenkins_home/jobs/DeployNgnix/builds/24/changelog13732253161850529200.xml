@@ -1,0 +1,10 @@
+commit 21713c36fb15ff293b2718cb83630f7320e02c27
+tree 4c6ab65670ae682610d0fb748a08b4b5d850634d
+parent 71fb4f2e5797d64c44fc39d173aaab4625b0e6d6
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 10:48:11 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 10:48:11 +0530
+
+    Added the commands to transeverse the directory.
+
+
+:100644 100644 62c04d2e7f6615cc6d1073896277db5cd5979b65 e7a09da4b3a8cd4e0b8143a9c309a21e94f58084 M	Jenkinsfile

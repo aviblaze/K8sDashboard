@@ -1,0 +1,22 @@
+.data-container {
+    display: flex;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom:5px;
+    margin-top:5px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height:100%;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+app-stage {
+    flex:1;
+    // max-width: 10%;
+    height: 80%;
+    padding: 30px;
+}

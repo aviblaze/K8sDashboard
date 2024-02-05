@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3668.v1763b_b_6ccffd">
+    <parentIds>
+      <string>13</string>
+    </parentIds>
+    <id>14</id>
+    <descriptorId>jenkins.plugins.git.GitStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3668.v1763b_b_6ccffd">
+      <arguments>
+        <entry>
+          <string>branch</string>
+          <string>main</string>
+        </entry>
+        <entry>
+          <string>url</string>
+          <string>https://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@github.com/SummitAIOrchs/IACUsing_Git_Jenkins_Terraform</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1213.v646def1087f9">
+      <startTime>1685009540134</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

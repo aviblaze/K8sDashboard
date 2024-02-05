@@ -1,0 +1,56 @@
+/* In child component CSS */
+:host {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* Other styles as needed */
+  }
+  
+.data-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin: auto;
+}
+
+.data-container .details {
+    font-size: 10px;
+    color: #333;
+}
+
+.data-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.play-button {
+    background-color: #2196F3; /* Default color */
+    color: #FFFFFF; /* White for the icon */
+    /* Other styles */
+}
+
+.success-status {
+    background-color: #4CAF50; /* Example: Green for success */
+}
+
+.failure-status {
+    background-color: #f44336; /* Example: Red for failure */
+}
+
+.not-started-status {
+    background-color: #2196F3; /* Example: Blue for not started */
+}
+
+.in-progress-spinner {
+    color: green; /* Color of the spinner */
+}
+
+/* Hide the button background when in-progress */
+.play-button:has(.in-progress-spinner) {
+    background-color: transparent;
+    box-shadow: none;
+}

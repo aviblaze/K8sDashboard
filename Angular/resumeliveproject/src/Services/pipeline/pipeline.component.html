@@ -1,0 +1,6 @@
+<div class="data-container">
+    <ng-container *ngFor="let stage of stages; let i = index">
+        <app-stage [Inputs]="stage" [style.max-width]="getStageWidth()"></app-stage>
+        <app-stage-connector [Input]="stages[i+1].status"  *ngIf="i < stages.length - 1"></app-stage-connector>
+    </ng-container>
+</div>

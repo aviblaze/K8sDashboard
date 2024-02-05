@@ -1,0 +1,112 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* Full height of the viewport */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Prevent scrolling */
+    background-color: #f0f7ff;
+}
+
+.filters-container {
+    background-color: #e3ebf6;
+    /* Change to white or preferred background color */
+    // border-bottom: 1px solid #e0e0e0;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Items will wrap to new line if not enough space */
+    margin-bottom: 10px;
+    /* Space after filters */
+    padding: 0;
+    margin-top: 10px;
+}
+
+app-splitscreen {
+    flex-grow: 1;
+    /* Component will fill the remaining height */
+    overflow: hidden;
+    /* Prevents internal scroll */
+}
+
+/* Adjust mat-form-field spacing and width */
+mat-form-field {
+    margin: 0 10px;
+    width: calc(33.3% - 20px);
+    display: flex;
+    /* Enable flex container */
+    justify-content: center;
+    /* Center children horizontally */
+    align-items: center;
+    /* Center children vertically */
+
+}
+
+/* Fullscreen spinner */
+.loading-spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+    /* Above all other content */
+}
+
+@media (max-width: 768px) {
+    .filters-container mat-form-field {
+        width: auto;
+        /* Full width on smaller screens */
+        margin: 5px;
+        /* Smaller margin on smaller screens */
+    }
+
+    .filters-container {
+        flex-direction: column;
+        /* Stack form fields vertically on small screens */
+    }
+}
+
+.healthstatus {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Changed to start to avoid center alignment issues */
+    gap: 10px; /* Reduced gap if needed */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    flex-shrink: 0; /* Prevents the container from shrinking */
+  }
+  
+  .healthstatus p {
+    margin: 0;
+    padding: 5px;
+    font-size: 32px;
+    color: #333;
+    white-space: nowrap; /* Prevents text from wrapping and pushing icon */
+  }
+
+  .mat-icon {
+    font-size: 24px; /* Adjust size if it's too large */
+    flex-shrink: 0; /* Prevents the icon from shrinking */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mat-icon.green-icon {
+    color: #4CAF50;
+  }
+  
+  .mat-icon.red-icon {
+    color: #F44336;
+  }

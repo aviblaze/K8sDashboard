@@ -1,0 +1,6 @@
+<div class="playground-container">
+    <div class="loading-spinner-container" *ngIf="isLoading">
+        <mat-spinner diameter="40" class="loading"></mat-spinner>
+    </div>
+    <app-splitscreen (splitscreenEvent)="handleSplitscreenEvent($event)" *ngIf="!isLoading" [splitContent]="config"></app-splitscreen>
+<div>

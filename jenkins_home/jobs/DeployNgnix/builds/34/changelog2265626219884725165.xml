@@ -1,0 +1,10 @@
+commit c59235b42523fb224724a16b4ed94e146a101511
+tree fef06b51397a72ef72b8a6f37668c09a61db6903
+parent 21713c36fb15ff293b2718cb83630f7320e02c27
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 11:45:03 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-15 11:45:03 +0530
+
+    Modified the instance type to support in multiple regions.
+
+
+:100644 100644 e5b51bedaabe19a741cb7a19c8bac5e48de08760 15118ca7bb2d7602b1385ffcff10e0d445e512f6 M	SingleZone/resources.tf

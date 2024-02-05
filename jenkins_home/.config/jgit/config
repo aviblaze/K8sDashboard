@@ -1,0 +1,6 @@
+[filesystem "Eclipse Adoptium|11.0.19|/dev/mapper/cs-root"]
+	timestampResolution = 12000 nanoseconds
+	minRacyThreshold = 1119 microseconds
+[filesystem "Eclipse Adoptium|11.0.20.1|/dev/mapper/cs-root"]
+	timestampResolution = 36000 nanoseconds
+	minRacyThreshold = 1547 microseconds

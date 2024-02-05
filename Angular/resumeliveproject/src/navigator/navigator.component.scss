@@ -1,0 +1,42 @@
+.nav-link {
+    padding: 0 5px; // Adjust the padding as needed
+    color: #424242; // Set the text color to white for better contrast
+    text-decoration: none;
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    padding: 0 5px;
+}
+
+mat-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; // This will space out your logo and nav items
+    background-color: #E3F2FD;
+    color: #424242;
+    padding: 0 270px;
+}
+
+.nav-link:hover {
+    background-color: #F5F5F5; // Slight highlight on hover
+}
+
+.active-link {
+    font-weight: bold;
+    border-bottom: 2px solid #29B6F6;
+    color: #29B6F6;
+    /* Use an accent color like amber */
+}
+
+@media (max-width: 600px) {
+    .nav-link {
+        padding: 0 10px; // Smaller padding for smaller screens
+    }
+}
+
+mat-icon {
+    margin-right: 5px; // Add space between icon and text
+    color: #29B6F6;
+}

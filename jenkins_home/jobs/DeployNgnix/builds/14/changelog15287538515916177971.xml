@@ -1,0 +1,10 @@
+commit b20f66256e588d39b78ebb0b23fc7ce1166c0857
+tree bfaa411728cee7a01a760f286d772298ae7d7498
+parent 554021b52b2eb5b1d070048fd7ba888a8ea38895
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:20:41 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-05-25 16:20:41 +0530
+
+    Added correct parameters to fetch credentials
+
+
+:100644 100644 ef8bcb0fc794b7ecf4805b275f58be58f7da763e f94cdf570b39ce2616f3ce6f658f1b114d3af9b0 M	Jenkinsfile

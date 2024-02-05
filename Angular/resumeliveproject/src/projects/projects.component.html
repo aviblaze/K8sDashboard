@@ -1,0 +1,9 @@
+<div class="projects-container">
+    <h1 class="title">Showcase of My DevOps Endeavors</h1>
+    <div class="project-list">
+        <div *ngFor="let project of projects" class="project-card">
+            <h2 class="project-title">{{ project.title }}</h2>
+            <p class="project-description">{{ project.description }}</p>
+        </div>
+    </div>
+</div>
