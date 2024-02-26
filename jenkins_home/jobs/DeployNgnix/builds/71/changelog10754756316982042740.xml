@@ -1,0 +1,10 @@
+commit fa980130493669fc5ee6372193b6ccc9ed273aa8
+tree faf007fe70b6dc4609b7f195f657365d282f48e9
+parent 464fa8909fb0f85e980fdcead6b6facb6bb92818
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-19 13:27:36 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-19 13:27:36 +0530
+
+    Modified output variables to be more readable.
+
+
+:100644 100644 1d1e259b7ff81e30820eb240021f2a15d8069860 dc53ee9d401a232f3e29e13baa2ab3c8866bd42c M	MultiRegion/resources.tf

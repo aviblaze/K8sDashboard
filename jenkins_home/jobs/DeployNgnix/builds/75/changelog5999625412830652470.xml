@@ -1,0 +1,11 @@
+commit 75a8977f37ee614d5e84294159332230ea3c83c5
+tree ea193210e2ed7c8cc41cb79855aff85bfe6b5e12
+parent fa980130493669fc5ee6372193b6ccc9ed273aa8
+author Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-19 15:05:32 +0530
+committer Avinash <mavinashkumar.reddy@symphonysummit.com> 2023-06-19 15:05:32 +0530
+
+    Modified user data to include instance id and availability zone.
+
+
+:100644 100644 b2762e0440630f4f35b4eb974cec77c93e2f6e66 bcfc12f1c0e92458b06efc936754ed9324abea4d M	.gitignore
+:100644 100644 e355a3f12828acdc67b310b8009d637df9c87a70 0adc476ff36e1ba1af7ec3148b13fcc4edaaac99 M	SingleZone/resources.tf
